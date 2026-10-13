@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "data:build": "node scripts/simplify-data.mjs"
+    "data:build": "node scripts/simplify-data.mjs",
+    "offline:build": "node scripts/export-offline-vademecum.mjs && node scripts/extract-document-json.mjs",
+    "documents:build": "node scripts/extract-document-json.mjs"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"

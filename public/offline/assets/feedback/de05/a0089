@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Vademecum Anthroposophische Arzneimittel </title>
+            <link rel="stylesheet" href="/bundles/vademecum/css/vademecum.css">
+        <!-- Browserweiche für alle IE -->
+        <!--[if IE]>
+            <link rel="stylesheet" href="/bundles/vademecum/css/ie.css">
+        <![endif]-->
+        <link rel="icon" type="image/x-icon" href="/bundles/vademecum/img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+     </head>
+<body>
+<div id="vademecum">
+    <header class="container">
+        <div class="row" id="header">
+            <div id="header-logo">
+                <h1><a href="https://www.vademecum.org/">Vademecum</a></h1>
+                <p>
+                                            Therapeutic possibilities in <br />
+                        Anthroposophic Medicine
+                                    </p>
+            </div>
+
+            <ul class="meta-navigation">
+	                            <li>
+                    <a href="https://www.vademecum.org/contact">
+                                                    Contact
+                                            </a>
+                </li>
+                                <li>
+                    <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=de">DE</a>
+                </li>
+                <li>
+                    <a class="active" href="https://www.vademecum.org/login?code=a0089&amp;_locale=en">EN</a>
+                </li>
+                <li>
+                    <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=es">ES</a>
+                </li>
+                <li>
+                    <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=fr">FR</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+    	<div id="teaser" class="gardien">
+		<div id="teaser-text-header" class="container lighter">
+			<h2>Vademecum Anthroposophische Arzneimittel</h2>
+			<p>5. Auflage 2024</p>
+		</div>
+	</div>
+
+    	<div class="box-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="md-title"></h3>
+																<p class="metaID">Indikation:</p>
+						<p class="metaID">
+							<span class="subtitle"> Trockener, krampfartiger Husten</span>
+																				</p>
+					
+					<p class="metaId">ID: a0089</p>
+
+				</div>
+				<div id="Vademecum-Form" class="col-xs-12">
+
+					
+					
+					
+					
+
+					
+
+
+					<form class="form-horizontal" action="//www.vademecum.org/vademecum_login_check?code=a0089" method="post">
+						<input type="hidden" name="code" value="a0089" />
+						<input type="hidden" name="_csrf_token" value="OvXJ9_YFJQcm3diMy-NEet1YKBVaguYrkPSLEBAyDBU" />
+						<input type="hidden" name="_target_path" value="" />
+
+						<div class="form-group">
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="username" name="_username" value="" required="required" placeholder="Username (e-mail address)" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-6">
+								<input type="password" class="form-control" id="password" name="_password" required="required" placeholder="Password" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-6 checkbox">
+								<label>
+									<input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+									Stay logged in
+								</label>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-6">
+								<input type="submit" id="_submit" class="btn btn-primary" name="_submit" value="Login" />
+							</div>
+						</div>
+
+					</form>
+
+
+					<hr>
+
+					<p>
+						If you do not have an account with Anthromedics, you may register here:
+					</p>
+
+					<p>
+						<a class="btn btn-primary" href="//www.anthromedics.org/register/" target="_anthromedics">Register</a>
+					</p>
+
+					<p>
+						After successful registration (and activation of your account), you may login with your login data.
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+    <div id="footer" class="container">
+        <div class="row">
+
+                <a class="back-top-btn" href="#">
+                                            Back
+                                    </a>
+
+
+                <ul class="meta-navigation">
+                    <li>
+                        <a href="https://www.vademecum.org/contact">
+                                                            Contact
+                                                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.vademecum.org/imprint">
+                                                            Imprint
+                                                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.vademecum.org/privacy">
+                                                            Privacy policy
+                                                    </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=de">DE</a>
+                    </li>
+                    <li>
+                        <a class="active" href="https://www.vademecum.org/login?code=a0089&amp;_locale=en">EN</a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=es">ES</a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/login?code=a0089&amp;_locale=fr">FR</a>
+                    </li>
+                </ul>
+
+        </div>
+
+    </div>
+</div>
+    <script src="/bundles/vademecum/js/jquery-3.2.0.min.js"></script>
+    <script src="/bundles/vademecum/js/bootstrap.min.js"></script></body>
+</html>

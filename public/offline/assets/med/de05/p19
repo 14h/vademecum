@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/med/ximg/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/med/manifest.json">
+    <title>Vademecum Anthroposophische Arzneimittel | Abkürzungen</title>
+    <link rel="stylesheet" href="/med/css/bootstrap/bootstrap-icons/bootstrap-icons.css"/>
+    <link href="/med/css/main.min.css" rel="stylesheet" />
+    <script src="/med/js/bootstrap.bundle.min.js"></script>
+    <script src="/med/js/popper.min.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: none;
+          }
+        }
+        @media (min-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: flex;
+              flex-direction: row;
+          }
+      }
+    </style>
+                <meta name="description" content="Vademecum Anthroposophische Arzneimittel | Fünfte Auflage | Abkürzungen">
+                    <script type="application/ld+json">
+          { "@context": "https://schema.org", "@type": "Article", "headline": "Vademecum Anthroposophische Arzneimittel | Abkürzungen", "datePublished": "2025-01-21", "publisher": "Gesellschaft Anthroposophischer Ärzte in Deutschland (GAÄD) und Medizinische Sektion der Freien Hochschule für Geisteswissenschaft, Dornach, Schweiz" }
+        </script>
+        <style>
+        ul.list-group ul {
+            padding-left: 20px; /* Abstand für jede Ebene erhöhen */
+        }
+    </style>
+  </head>
+  <body class="home">
+    <header class="page-header">
+  <nav class="navbar navbar-light">
+    <div class="container g-0">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+          <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App Wort-Bildmarke (Positiv)</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path
+                  d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335"
+                  id="Fill-1"
+                  fill="#FFFFFF"
+                ></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="metanavigation">
+                  <div class="header-editon">
+            <select class="form-select rounded-pill blue-schema" aria-label="Ausgabe wählen" data-select-edition>
+              <option value="">Edition</option>
+                              <option value="de05" selected>DE-05</option>
+                          </select>
+          </div>
+                <div class="icon-menubar">
+                    <div class="icon-menubtn">
+                          <a href="/med/favorites.html" class="icon">
+                <span class="fav inverted">Favoriten</span>
+              </a>
+                      </div>
+                                    <div class="icon-menubtn">
+                <a href="https://www.vademecum.org/med/de05/t00" class="icon">
+                  <span class="grundlagen inverted">Grundlagen</span>
+                </a>
+              </div>
+                        <div class="icon-menubtn dropdown dropdown-header">
+              <button class="icon context-icon" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user inverted active">Mein Konto</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/logout">Logout</a></li>
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+              </ul>
+            </div>
+                                <div class="icon-menubtn">
+              <a href="https://www.vademecum.org/med/de05/search?reset=1" class="icon" id="volltextsuche">
+                <span class="search inverted">Suche</span>
+              </a>
+            </div>
+          
+        </div>
+        <button class="navbar-toggler mobile" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <nav class="navbar navbar-expand-md menu">
+          <div class="collapse navbar-collapse" id="mainMenu">
+
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/account">Mein Konto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/logout">Abmelden</a>
+                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/help">Hilfe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/imprint">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/privacy">Datenschutz</a>
+                </li>
+              </ul>
+                                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 langtext-menu desktop-nav" id="langtext-menu">
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+              </ul>
+                      </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+    <div class="offcanvas offcanvas-top volltextsuche" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Volltextsuche</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="bg-hightlight search-groupe">
+            <input type="text" class="form-control gfg rounded-pill" id="formGroupExampleInput" placeholder="Volltextsuche"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+         <div class="container content-container vademecum-page g-0">
+                 <div class="heading-item title sticky">
+            <h1>Verzeichnis der Abkürzungen</h1>
+
+        </div>
+        <section class="langtext-detail ">
+            <div class="row g-0">
+                                <div class="content-body">
+                    
+	
+		<h2 class="intro pt-7" id="p19-01">Abkürzungen</h2>
+			<div data-module="abbreviations"><div class="table-container abbreviations">
+  <table class="table table-striped">
+    <tr><td>Ø</td><td>Urtinktur</td></tr><tr><td>5-FU</td><td>5-Fluorouracil</td></tr><tr><td>5-HT3</td><td>5-Hydroxytryptamin-3</td></tr><tr><td>A</td><td>Abies, -tis (Tanne)</td></tr><tr><td>A</td><td>Ann-Arbor-Klassifikation: ohne B-Symptomatik</td></tr><tr><td>A.</td><td>Arteria</td></tr><tr><td>aa</td><td>ana partes aequales (zu gleichen Teilen)</td></tr><tr><td>abdl.</td><td>abendlich</td></tr><tr><td>abds.</td><td>abends</td></tr><tr><td>ABVD</td><td>Adriamycin® (Doxorubicin), Bleomycin, Vinblastin, Dacarbazin</td></tr><tr><td>ACC</td><td>adenoid-zystisches Karzinom</td></tr><tr><td>ACE-Hemmer</td><td>Angiotensinkonversionsenzym-Hemmer</td></tr><tr><td>ACO</td><td>Doxorubicin (Adriamycin®), Cyclophosphamid, Vincristin</td></tr><tr><td>ACVB</td><td>Koronararterienbypass</td></tr><tr><td>ADHS</td><td>Aufmerksamkeitsdefizit-Hyperaktivitäts-Syndrom</td></tr><tr><td>ADP</td><td>Adenosindiphosphat</td></tr><tr><td>ADS</td><td>Aufmerksamkeitsdefizit-Syndrom</td></tr><tr><td>AFP</td><td>Alpha-1-Fetoprotein</td></tr><tr><td>AIA</td><td>Aromataseinhibitor-induziertes Arthralgie-Syndrom</td></tr><tr><td>AIHA</td><td>autoimmunhämolytische Anämie</td></tr><tr><td>AILD</td><td>angioimmunoblastisches T-Zell-Lymphom</td></tr><tr><td>AJCC</td><td>American Joint Committee on Cancer</td></tr><tr><td>AK</td><td>Antikörper</td></tr><tr><td>ALCL</td><td>anaplastisch-großzelliges Lymphom</td></tr><tr><td>ALK</td><td>anaplastische Lymphomkinase</td></tr><tr><td>ALL</td><td>akute lymphatische Leukämie</td></tr><tr><td>ALS</td><td>amyotrophe Lateralsklerose</td></tr><tr><td>AML</td><td>akute myeloische Leukämie</td></tr><tr><td>Amp.</td><td>Ampulle</td></tr><tr><td>ANA</td><td>antinukleäre Antikörper</td></tr><tr><td>APUDome</td><td>Tumore, die von APUD(Amine Precursor Uptake and Decarboxylation)-Zellen ausgehen</td></tr><tr><td>aqu.</td><td>aquosus, -a, -um (wässrig)</td></tr><tr><td>aquos.</td><td>aquosus, -a, -um (wässrig)</td></tr><tr><td>AR</td><td>Androgenrezeptor</td></tr><tr><td>Arg.</td><td>Argentum, -o (Silber)</td></tr><tr><td>ASS</td><td>Acetylsalicylsäure</td></tr><tr><td>AT1-Blocker</td><td>Angiotensin-Rezeptorblocker</td></tr><tr><td>ATP</td><td>Adenosintriphosphat</td></tr><tr><td>AV-Kanal</td><td>Atrioventrikulärer Septumdefekt</td></tr><tr><td>AZ</td><td>Allgemeinzustand</td></tr><tr><td>B-ALL-Protokoll</td><td>Chemotherapie mit Cyclophosphamid, Hydroxydaunorubicin, Vincristin, Prednison Methotrexat, Cytarabin, Etoposid</td></tr><tr><td>BCC</td><td>Basalzellkarzinom</td></tr><tr><td>BCG</td><td>Bacillus Calmette-Guérin</td></tr><tr><td>B-CLL</td><td>chronisch lymphatische Leukämie vom B-Zell-Typ</td></tr><tr><td>BCNU</td><td>Bis-Chlorethyl-Nitroso-Urea (Carmustin)</td></tr><tr><td>bds.</td><td>beidseits</td></tr><tr><td>Ber-EP4</td><td>monoklonaler Antikörper, der sich gegen das epitheliale Zelladhäsionsmolekül (EpCAM) richtet und in Berlin (Ber) entwickelt wurde</td></tr><tr><td>B-Lymphozyten</td><td>Lymphozyten, die im Knochenmark (engl. bone marrow) ausreifen</td></tr><tr><td>B-NHL</td><td>B-Zell-Non-Hodgkin-Lymphom</td></tr><tr><td>BNP</td><td>B-Typ natriuretisches Peptid (engl. brain natriuretic peptide)</td></tr><tr><td>BOP</td><td>Bendamustin, Vincristin (Oncovin®), Prednisolon</td></tr><tr><td>Borkh.</td><td>Borkhausen</td></tr><tr><td>BRAF</td><td>v-Raf murine sarcoma viral oncogene homolog B1 (Protoonkogen, das die B-Raf kodiert)</td></tr><tr><td>BRCA(1/2)</td><td>Brustkrebsgen (1/2)</td></tr><tr><td>BSG</td><td>Blut(körperchen)senkungsgeschwindigkeit</td></tr><tr><td>B-Symptomatik</td><td>Ann-Arbor-Klassifikation: Allgemeinsymptome (Fieber, Nachtschweiß, Gewichts­verlust)</td></tr><tr><td>BWK</td><td>Brustwirbelkörper</td></tr><tr><td>BWS</td><td>Brustwirbelsäule</td></tr><tr><td>B-Zellen</td><td>Lymphozyten, die im Knochenmark (engl. bone marrow) ausreifen</td></tr><tr><td>c.</td><td>cum (mit)</td></tr><tr><td>Ca</td><td>Karzinom</td></tr><tr><td>CA-125</td><td>Cancer-/Carbohydrate-Antigen 125</td></tr><tr><td>CA 19-9</td><td>Cancer-/Carbohydrate-Antigen 19-9</td></tr><tr><td>CAM</td><td>Komplementär- und Alternativmedizin</td></tr><tr><td>CCNU</td><td>Chlorethyl-Cyclohexyl-Nitroso-Urea (Lomustin)</td></tr><tr><td>CCP</td><td>zyklisch citrullinierte Peptide</td></tr><tr><td>cCT</td><td>kraniale Computertomographie</td></tr><tr><td>CD</td><td>Cluster of Differentiation (Oberflächenmerkmal)</td></tr><tr><td>CDK4/6</td><td>Cyclin-abhängige Kinase 4/6</td></tr><tr><td>CDKN2A</td><td>Gen, durch das der Cyclin-abhängige Kinase-Inhibitor 2A (Protein p16) codiert wird</td></tr><tr><td>CDKN2B</td><td>Gen, durch das der Cyclin-abhängige Kinase-Inhibitor 2B (Protein p15) codiert wird</td></tr><tr><td>CEA</td><td>Karzinoembryonales Antigen</td></tr><tr><td>CED</td><td>chronisch-entzündliche Darmerkrankung</td></tr><tr><td>CFS</td><td>chronisches Fatigue-Syndrom (Erschöpfungssyndrom)</td></tr><tr><td>CgA</td><td>Chromogranin A</td></tr><tr><td>CH</td><td>Schweiz</td></tr><tr><td>Ch.</td><td>Channel</td></tr><tr><td>CHE</td><td>Cholinesterase</td></tr><tr><td>CHOP</td><td>Cyclophosphamid, Hydroxydaunorubicin, Vincristin (Oncovin®), Prednison/Prednisolon</td></tr><tr><td>chron.</td><td>chronisch, chronifiziert</td></tr><tr><td>CIN</td><td>zervikale intraepitheliale Neoplasie</td></tr><tr><td>CIPN</td><td>Chemotherapie-induzierte Polyneuropathie</td></tr><tr><td>CIS</td><td>Carcinoma in situ</td></tr><tr><td>CK</td><td>Kreatinkinase</td></tr><tr><td>CK-MM</td><td>Kreatinkinase vom Skelettmuskeltyp</td></tr><tr><td>CLL</td><td>chronisch lymphatische Leukämie</td></tr><tr><td>cM0 bis cM1</td><td>Vorhandensein von Fernmetastasen laut klinischer Untersuchung (inklusive bildgebender Verfahren)</td></tr><tr><td>cMRT</td><td>kraniale Magnetresonanztomographie</td></tr><tr><td>CMV</td><td>Zytomegalievirus</td></tr><tr><td>cN0 bis cN3</td><td>Zahl und Lage befallener Lymphknoten laut klinischer Untersuchung (inklusive bildgebender Verfahren)</td></tr><tr><td>comp.</td><td>compositum (zusammengesetzt)</td></tr><tr><td>COP</td><td>Cyclophosphamid, Vincristin (Oncovin®), Prednison</td></tr><tr><td>COPD</td><td>chronisch obstruktive Lungenerkrankung</td></tr><tr><td>Covid-19</td><td>coronavirus disease 2019</td></tr><tr><td>COX-2</td><td>Cyclooxygenase-2</td></tr><tr><td>CPAP</td><td>continuous positive airway pressure</td></tr><tr><td>CREST-Syndrom</td><td>calcinosis cutis-Raynaud phenomenon-esophageal dysmotility-sclerodactyly-teleangiectasia-syndrom</td></tr><tr><td>CRF</td><td>Cancer-related Fatigue</td></tr><tr><td>CRP</td><td>C-reaktives Protein</td></tr><tr><td>CRPS</td><td>komplexes regionales Schmerzsyndrom</td></tr><tr><td>cSCC</td><td>kutanes Plattenepithelkarzinom</td></tr><tr><td>CT</td><td>Computertomographie, -tomogramm</td></tr><tr><td>cT0 bis cT4</td><td>Schweregradeinteilung des Primärtumors laut klinischer Untersuchung (inklusive bildgebender Verfahren)</td></tr><tr><td>CTX</td><td>Chemotherapie</td></tr><tr><td>Cu</td><td>Cuprum, -o (Kupfer)</td></tr><tr><td>CUP</td><td>Karzinom mit unbekanntem Primärtumor</td></tr><tr><td>C-Zellen</td><td>Calcitonin bildende Zellen der Schilddrüse (parafollikuläre Zelle)</td></tr><tr><td>D</td><td>Digitus manus (Finger)</td></tr><tr><td>D33</td><td>Desmin Antikörper</td></tr><tr><td>DCF</td><td>Docetaxel, Cisplatin, 5-Fluorouracil</td></tr><tr><td>DCIS</td><td>duktales Carcinoma in situ</td></tr><tr><td>DCM</td><td>dilatative Kardiomyopathie</td></tr><tr><td>DDL</td><td>dedifferenziertes Liposarkom</td></tr><tr><td>DE</td><td>Deutschland</td></tr><tr><td>Decoct.</td><td>Decoctum (Auszug, Abkochung)</td></tr><tr><td>DEV</td><td>Droge-zu-Extraktverhältnis</td></tr><tr><td>DGP</td><td>Deutsche Gesellschaft für Palliativmedizin</td></tr><tr><td>DGVS</td><td>Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten</td></tr><tr><td>Dil.</td><td>Dilution</td></tr><tr><td>DIP</td><td>distales Interphalangealgelenk</td></tr><tr><td>DLBCL</td><td>diffus großzelliges B-Zell-Lymphom</td></tr><tr><td>DMARDS</td><td>progressionsverlangsamende Antirheumatika</td></tr><tr><td>DNA</td><td>Desoxyribonukleinsäure</td></tr><tr><td>Dtld.</td><td>Deutschland</td></tr><tr><td>E</td><td>Ann-Arbor-Klassifikation: extranodal (Beteiligung von Organen und Geweben außerhalb der Lymphknoten)</td></tr><tr><td>E. coli</td><td>Escherichia coli</td></tr><tr><td>EBUS</td><td>endobronchialer Ultraschall</td></tr><tr><td>EC</td><td>Epirubicin, Cyclophosphamid</td></tr><tr><td>ECOG</td><td>Performance Status der Eastern Cooperative Oncology Group</td></tr><tr><td>EEG</td><td>Elektroenzephalographie, -gramm</td></tr><tr><td>EGFR</td><td>epidermaler Wachstumsfaktorrezeptor</td></tr><tr><td>EGPA</td><td>eosinophile Granulomatose mit Polyangiitis</td></tr><tr><td>EKG</td><td>Elektrokardiogramm</td></tr><tr><td>EL</td><td>Esslöffel</td></tr><tr><td>EORTC QLQ-C30</td><td>Lebensqualität-Fragebogen der europäischen Organisation für Krebsforschung und -behandlung</td></tr><tr><td>EPH-Gestose</td><td>Ödem-Proteinurie-Hypertonie-Gestose</td></tr><tr><td>ER</td><td>Östrogenrezeptor</td></tr><tr><td>ethanol.</td><td>alkoholisch</td></tr><tr><td>EudraCT</td><td>European Union Drug Regulating Authorities Clinical Trials</td></tr><tr><td>ext.</td><td>Externum, -a</td></tr><tr><td>Extr.</td><td>Extractum</td></tr><tr><td>Fa.</td><td>Firma</td></tr><tr><td>FAP</td><td>familiäre adenomatöse Polyposis coli</td></tr><tr><td>FAS</td><td>Fetales Alkoholsyndrom</td></tr><tr><td>FDG</td><td>Fluordesoxyglukose</td></tr><tr><td>FEC</td><td>5-Fluorouracil, Epirubicin, Cyclophosphamid</td></tr><tr><td>FIGO</td><td>Internationale Vereinigung für Gynäkologie und Geburtshilfe</td></tr><tr><td>fl</td><td>Femtoliter</td></tr><tr><td>FLO</td><td>Fluorouracil, Leucovorin, Oxaliplatin</td></tr><tr><td>FNCLCC</td><td>Fédération Nationale des Centres de Lutte Contre le Cancer</td></tr><tr><td>FOLFIRINOX</td><td>Folinsäure (Leucovorin), 5-Fluorouracil, Irinotecan, Oxaliplatin</td></tr><tr><td>FSME</td><td>Frühsommer-Meningoenzephalitis</td></tr><tr><td>FV</td><td>Fallvignette</td></tr><tr><td>Fx</td><td>Fraktionen</td></tr><tr><td>G</td><td>Gauge</td></tr><tr><td>G1 bis G4</td><td>Grading (Differenzierungsgrad) der Neoplasie</td></tr><tr><td>G1-Phase</td><td>Gap-Phase 1</td></tr><tr><td>gBRCA1/2</td><td>Keimbahn-Brustkrebsgen 1/2</td></tr><tr><td>GEP</td><td>gastro-entero-pankreatisches System</td></tr><tr><td>GERD</td><td>gastrooesophageale Refluxkrankheit</td></tr><tr><td>GFR</td><td>glomeruläre Filtrationsrate</td></tr><tr><td>GGT</td><td>Gamma-Glutamyltransferase</td></tr><tr><td>GIST</td><td>gastrointestinaler Stromatumor</td></tr><tr><td>Gl</td><td>Glycerol</td></tr><tr><td>Glob.</td><td>Globuli</td></tr><tr><td>GnRH</td><td>Gonadotropin Releasing Hormone (Gonadoliberin)</td></tr><tr><td>GOT</td><td>Glutamat-Oxalacetat-Transaminase (Aspartat-Aminotransferase)</td></tr><tr><td>Gy</td><td>Gray</td></tr><tr><td>H.</td><td>Helicobacter</td></tr><tr><td>HAB</td><td>Homöopathisches Arzneibuch</td></tr><tr><td>HAES</td><td>Hydroxyethylstärke</td></tr><tr><td>HAI</td><td>histologischer Aktivitätsindex</td></tr><tr><td>Hb</td><td>Hämoglobin</td></tr><tr><td>HCC</td><td>hepatozelluläres Karzinom</td></tr><tr><td>h-CD</td><td>Antikörper gegen Caldesmon mit hohem Molekulargewicht</td></tr><tr><td>HDL</td><td>High Density Lipoprotein (Lipoprotein hoher Dichte)</td></tr><tr><td>HEC</td><td>Hydroxyethylcellulose</td></tr><tr><td>HER2/neu</td><td>Human Epidermal Growth Factor Receptor 2</td></tr><tr><td>Hg</td><td>Hydrargyrum, -o (Quecksilber)</td></tr><tr><td>HIV</td><td>Human Immunodeficiency Virus</td></tr><tr><td>HLA</td><td>Histokompatibilitätsantigen</td></tr><tr><td>HNO</td><td>Hals-Nasen-Ohren</td></tr><tr><td>HOCM</td><td>hypertroph-obstruktive Kardiomyopathie</td></tr><tr><td>HPF</td><td>Mitosen je Hauptgesichtsfeld</td></tr><tr><td>HPV</td><td>humanes Papillomavirus</td></tr><tr><td>HR</td><td>Hazard-Ratio</td></tr><tr><td>HRV</td><td>Herzfrequenzvariabilität</td></tr><tr><td>Huds.</td><td>Hudson</td></tr><tr><td>HWK</td><td>Halswirbelkörper</td></tr><tr><td>HWS</td><td>Halswirbelsäule</td></tr><tr><td>Hz</td><td>Hertz</td></tr><tr><td>i+</td><td>Nachweis von isolierten Tumorzellen</td></tr><tr><td>IASLC</td><td>International Association for the Study of Lung Cancer</td></tr><tr><td>i.c.</td><td>intrakutan</td></tr><tr><td>ICE</td><td>Ifosfamid, Carboplatin, Etoposid</td></tr><tr><td>ICH</td><td>intrazerebrale Blutung</td></tr><tr><td>ICI</td><td>Immuncheckpoint-Inhibitor</td></tr><tr><td>ICSI</td><td>intrazytoplasmatische Spermieninjektion</td></tr><tr><td>IDH</td><td>Isozitrat-Dehydrogenase</td></tr><tr><td>IE</td><td>Internationale Einheit</td></tr><tr><td>IEN</td><td>intraepitheliale Neoplasie</td></tr><tr><td>IFN-?</td><td>Interferon-?</td></tr><tr><td>IgA</td><td>Immunglobulin A</td></tr><tr><td>IgG</td><td>Immunglobulin G (Gammaglobulin)</td></tr><tr><td>IgM</td><td>Immunglobulin M</td></tr><tr><td>IL-2</td><td>Interleukin-2</td></tr><tr><td>IL-6</td><td>Interleukin-6</td></tr><tr><td>ILVT</td><td>intraläsionale Viscumtherapie</td></tr><tr><td>i.m.</td><td>intramuskulär</td></tr><tr><td>IMIG</td><td>International Mesothelioma Interest Group</td></tr><tr><td>immat.</td><td>immaturus (unreif)</td></tr><tr><td>IMRT</td><td>intensitätsmodulierte Radiotherapie</td></tr><tr><td>inkl.</td><td>inklusive</td></tr><tr><td>i.p.</td><td>intraperitoneal</td></tr><tr><td>IPMN</td><td>intraduktale papillär-muzinöse Neoplasie</td></tr><tr><td>ISG</td><td>Iliosakralgelenk</td></tr><tr><td>ISUP</td><td>Internationale Gesellschaft für urologische Pathologie</td></tr><tr><td>i.t.</td><td>intratumoral</td></tr><tr><td>i.th.</td><td>intrathekal</td></tr><tr><td>ITP</td><td>idiopathische thrombozytopenische Purpura</td></tr><tr><td>i.v.</td><td>intravenös</td></tr><tr><td>IVF</td><td>In-vitro-Fertilisation</td></tr><tr><td>J.</td><td>Jahr</td></tr><tr><td>Kap.</td><td>Kapitel</td></tr><tr><td>KHK</td><td>Koronare Herzkrankheit</td></tr><tr><td>KI</td><td>Konfidenzintervall</td></tr><tr><td>Ki-67</td><td>Kiel-Antigen Nr. 67</td></tr><tr><td>kPa</td><td>Kilopascal</td></tr><tr><td>Kps.</td><td>Kapsel</td></tr><tr><td>KRAS</td><td>Kirsten Rat Sarcoma 2 Viral Oncogene</td></tr><tr><td>l</td><td>Liter</td></tr><tr><td>L.</td><td>Linné</td></tr><tr><td>L0/L1</td><td>L-Klassifikation: Vorhandensein von Lymphgefäßeinbrüchen</td></tr><tr><td>L1 bis L5</td><td>Lendenwirbel</td></tr><tr><td>LA</td><td>wässrig-ethanolischer Auszug aus frischen Pflanzen(teilen)</td></tr><tr><td>lat.</td><td>lateinisch</td></tr><tr><td>LDH</td><td>Laktatdehydrogenase</td></tr><tr><td>LDL</td><td>Low Density Lipoprotein (Lipoprotein niederer Dichte)</td></tr><tr><td>L-Dopa</td><td>L-3,4-Dihydroxyphenylalanin, Levodopa</td></tr><tr><td>LEEP</td><td>elektrochirurgische Schlingenexzision</td></tr><tr><td>LGSC</td><td>Low-grade seröses Karzinom</td></tr><tr><td>li.</td><td>links</td></tr><tr><td>Liebl.</td><td>Lieblein</td></tr><tr><td>Lj.</td><td>Lebensjahr</td></tr><tr><td>LK</td><td>Lymphknoten</td></tr><tr><td>LOH</td><td>Loss of Heterozygosity</td></tr><tr><td>LOLA</td><td>L-Ornithin-L-Aspartat</td></tr><tr><td>LP</td><td>Liquorpunktion</td></tr><tr><td>LWS</td><td>Lendenwirbelsäule</td></tr><tr><td>M</td><td>Malus, -i (Apfelbaum)</td></tr><tr><td>M.</td><td>Morbus</td></tr><tr><td>M0/M1</td><td>Vorhandensein von Fernmetastasen</td></tr><tr><td>MALT</td><td>Mukosa-assoziiertes lymphatisches Gewebe</td></tr><tr><td>MAP-Kinase</td><td>Mitogen-activated portein kinase</td></tr><tr><td>Matt.</td><td>Mattuschka</td></tr><tr><td>MBSR</td><td>Mindfulness-Based Stress Reduction (Achtsamkeitsbasierte Stressreduktion)</td></tr><tr><td>MCC</td><td>Merkelzellkarzinom</td></tr><tr><td>MCP</td><td>Metakarpophalangealgelenk</td></tr><tr><td>MCS</td><td>multiple chemische Sensitivität</td></tr><tr><td>MCV</td><td>mittleres korpuskuläres Volumen</td></tr><tr><td>MEK-Inhibitor</td><td>Hemmer der MAP-Kinasen MEK1 und MEK2</td></tr><tr><td>met.</td><td>metallicum (metallisch)</td></tr><tr><td>m.f.</td><td>misce fiat (wörtlich: mische, es werde)</td></tr><tr><td>MGMT</td><td>O-6-Methylguanin-DNA-Methyltransferase</td></tr><tr><td>mgs.</td><td>morgens</td></tr><tr><td>MHC</td><td>Haupthistokompatibilitätskomplex</td></tr><tr><td>MHC-I</td><td>Haupthistokompatibilitätskomplex der Klasse I</td></tr><tr><td>MHE</td><td>minimale hepatische Enzephalopathie</td></tr><tr><td>MIB-1</td><td>Molecular Immunology Borstel 1</td></tr><tr><td>Mill.</td><td>Miller</td></tr><tr><td>Min.</td><td>Minute</td></tr><tr><td>MLD</td><td>manuelle Lymphdrainage</td></tr><tr><td>Mo.</td><td>Monat</td></tr><tr><td>mod.</td><td>modifiziert</td></tr><tr><td>MPM</td><td>malignes Pleuramesotheliom</td></tr><tr><td>MR-morphologisch</td><td>Merkmale/Aussehen von Geweben auf einem MRT-Bild</td></tr><tr><td>mRNA</td><td>messenger Ribonukleinsäure</td></tr><tr><td>MRT</td><td>Magnetresonanztomographie, -tomogramm</td></tr><tr><td>MS</td><td>Multiple Sklerose</td></tr><tr><td>Msp.</td><td>Messerspitze</td></tr><tr><td>MTX</td><td>Methotrexat</td></tr><tr><td>Mx</td><td>Vorhandensein von Fernmetastasen nicht beurteilbar</td></tr><tr><td>N.</td><td>Nervus</td></tr><tr><td>N0 bis N3</td><td>Zahl und Lage befallener Lymphknoten</td></tr><tr><td>NaCl</td><td>Natriumchlorid (Kochsalz)</td></tr><tr><td>NADH</td><td>Nikotinamidadenindinukleotid (in reduzierter Form)</td></tr><tr><td>NAFLD</td><td>nichtalkoholische Fettlebererkrankung</td></tr><tr><td>NaHCO3</td><td>Natriumhydrogenkarbonat</td></tr><tr><td>NASH</td><td>nichtalkoholische Steatohepatitis</td></tr><tr><td>n.d.E.</td><td>nach dem Essen</td></tr><tr><td>NEC</td><td>neuroendokrines Karzinom</td></tr><tr><td>neg.</td><td>negativ</td></tr><tr><td>NET</td><td>neuroendokriner Tumor</td></tr><tr><td>NHL</td><td>Non-Hodgkin-Lymphom</td></tr><tr><td>NK(-Zellen)</td><td>natürliche Killerzellen</td></tr><tr><td>NL</td><td>Niederlande</td></tr><tr><td>NLG</td><td>Nervenleitgeschwindigkeit</td></tr><tr><td>NLPHL</td><td>noduläres lymphozytenprädominantes Hodgkin-Lymphom</td></tr><tr><td>NMP-22</td><td>Nukleäres Matrixprotein 22</td></tr><tr><td>Nn.</td><td>Nervi</td></tr><tr><td>NOSTE</td><td>Mitoxantron (Novantron®), Prednimustin (Sterecyt®)</td></tr><tr><td>NRL</td><td>Neutrophilen-Lymphozyten-Verhältnis</td></tr><tr><td>NSAR</td><td>nichtsteroidale Antirheumatika</td></tr><tr><td>NSCLC</td><td>nicht-kleinzelliges Lungenkarzinom</td></tr><tr><td>NSE</td><td>neuronenspezifische Enolase</td></tr><tr><td>NSn</td><td>Befall der Sentinel-Lymphknoten</td></tr><tr><td>NST</td><td>nicht-spezifischer Typ</td></tr><tr><td>NT-proBNP</td><td>Prohormonfragment des Brain Natriuretic Peptide (natriuretischen Peptids Typ B)</td></tr><tr><td>NW</td><td>Normwert</td></tr><tr><td>n.W.</td><td>nach Westergren</td></tr><tr><td>Nx</td><td>regionäre Lymphknoten nicht beurteilbar</td></tr><tr><td>NYHA</td><td>New York Heart Association</td></tr><tr><td>o.B.</td><td>ohne pathologischen Befund</td></tr><tr><td>off.</td><td>officinalis, -e (offizinell)</td></tr><tr><td>OP</td><td>Operation</td></tr><tr><td>OSG</td><td>oberes Sprunggelenk, Articulatio talocruralis</td></tr><tr><td>OSS</td><td>ossäre Metastasen, Knochenmetastasen</td></tr><tr><td>P</td><td>Pinus, -i (Kiefer)</td></tr><tr><td>Pa</td><td>Pascal</td></tr><tr><td>PAP</td><td>Test nach Papanicolaou</td></tr><tr><td>PARP</td><td>Poly-ADP-Ribose-Polymerase</td></tr><tr><td>Pat.</td><td>Patient, -in</td></tr><tr><td>pAVK</td><td>periphere arterielle Verschlusskrankheit</td></tr><tr><td>PBC</td><td>primär biliäre Zirrhose</td></tr><tr><td>PCI</td><td>prophylaktische Schädelbestrahlung</td></tr><tr><td>PCMZL</td><td>primär kutanes Marginalzonenlymphom</td></tr><tr><td>pCO2</td><td>Kohlendioxidpartialdruck</td></tr><tr><td>PCOS</td><td>polyzystisches Ovarialsyndrom</td></tr><tr><td>PCP</td><td>Pneumocystis-Pneumonie</td></tr><tr><td>PD-1</td><td>Programmed Cell Death Protein 1</td></tr><tr><td>PD-L1</td><td>Programmed Death-Ligand 1</td></tr><tr><td>PEC</td><td>Plattenepithelkarzinom</td></tr><tr><td>PEJ</td><td>perkutane endoskopische Jejunostomie</td></tr><tr><td>PET</td><td>Positronen-Emissions-Tomographie</td></tr><tr><td>PET-CT</td><td>Kombination aus Positronen-Emissions- und Computertomographie</td></tr><tr><td>PIP</td><td>proximales Interphalangealgelenk</td></tr><tr><td>PI-RADS</td><td>Prostate Imaging Reporting and Data System</td></tr><tr><td>pL0/L1</td><td>Vorhandensein von Lymphgefäßeinbrüchen laut histopathologischer Untersuchung</td></tr><tr><td>pM0/pM1</td><td>Vorhandensein von Fernmetastasen laut histopathologischer Untersuchung</td></tr><tr><td>PMS</td><td>prämenstruelles Syndrom</td></tr><tr><td>Pn0/Pn1</td><td>Vorhandensein einer perineuralen Invasion</td></tr><tr><td>pN0 bis pN3</td><td>Zahl und Lage befallener Lymphknoten laut histopathologischer Untersuchung</td></tr><tr><td>p.o.</td><td>per os (oral)</td></tr><tr><td>pO2</td><td>Sauerstoffpartialdruck</td></tr><tr><td>PR</td><td>Progesteronrezeptor</td></tr><tr><td>praep.</td><td>praeparatum (zubereitet)</td></tr><tr><td>PSA</td><td>prostataspezifisches Antigen</td></tr><tr><td>PSC</td><td>primär sklerosierende Cholangitis</td></tr><tr><td>pT0 bis pT4</td><td>Ausdehnung des Primärtumors laut histopathologischer Untersuchung</td></tr><tr><td>pTa</td><td>nichtinvasives Karzinom laut histopathologischer Untersuchung</td></tr><tr><td>PTBS</td><td>Posttraumatische Belastungsstörung</td></tr><tr><td>pTis</td><td>nicht invasives Carcinoma in situ laut histopathologischer Untersuchung</td></tr><tr><td>PUVA</td><td>Psoralen plus UV-A (Photochemotherapie)</td></tr><tr><td>p-Wert</td><td>Signifikanzwert (Überschreitungswahrscheinlichkeit)</td></tr><tr><td>Qu</td><td>Quercus (Eiche)</td></tr><tr><td>R0 bis R2</td><td>Vollständigkeit der Tumorresektion (R0: Entfernung im Gesunden)</td></tr><tr><td>R-CHOP</td><td>Rituximab, Cyclophosphamid, Hydroxydaunorubicin, Vincristin (Oncovin®), Prednison/Prednisolon</td></tr><tr><td>R-CVP</td><td>Rituximab, Cyclophosphamid, Vincristin, Prednison</td></tr><tr><td>Red</td><td>Vademecum-Redaktion</td></tr><tr><td>resp.</td><td>respektive</td></tr><tr><td>Rh</td><td>rhythmisch behandeltes Präparat</td></tr><tr><td>RLS</td><td>Restless-Legs-Syndrom</td></tr><tr><td>Rp.</td><td>Rezeptur</td></tr><tr><td>rpT</td><td>Ausdehnung eines rezidivierten Tumors laut histopathologischer Untersuchung</td></tr><tr><td>RR</td><td>Blutdruck (nach Riva-Rocci)</td></tr><tr><td>RSV</td><td>(humanes) Respiratorisches Synzytial-Virus</td></tr><tr><td>RTX</td><td>Strahlentherapie</td></tr><tr><td>S-100</td><td>kalziumbindende Proteine, die u.a. von Weichteilsarkom-Zellen exprimiert werden</td></tr><tr><td>s.c.</td><td>subkutan</td></tr><tr><td>SCLC</td><td>kleinzelliges Lungenkarzinom</td></tr><tr><td>Sek.</td><td>Sekunde</td></tr><tr><td>Si</td><td>Silizium</td></tr><tr><td>SLE</td><td>systemischer Lupus erythematodes</td></tr><tr><td>SMD</td><td>standardisierte Mittelwertdifferenz</td></tr><tr><td>Sn</td><td>Stannum (Zinn)</td></tr><tr><td>sog.</td><td>sogenannt</td></tr><tr><td>sp.</td><td>Spezies</td></tr><tr><td>SP-A</td><td>Surfactantprotein A</td></tr><tr><td>ssp.</td><td>Subspezies</td></tr><tr><td>SSW</td><td>Schwangerschaftswoche</td></tr><tr><td>Std.</td><td>Stunde</td></tr><tr><td>stdl.</td><td>stündlich</td></tr><tr><td>STT-Arthrose</td><td>Scapho-Trapezium-Trapezoid-Arthrose</td></tr><tr><td>STT-Gelenk</td><td>Gelenkflächen des Os scaphoideum, des Os trapezium und des Os trapezoideum</td></tr><tr><td>Supp.</td><td>Suppositorium (Zäpfchen)</td></tr><tr><td>SUV</td><td>Standard Uptake Value</td></tr><tr><td>SWOG</td><td>South West Oncology Group</td></tr><tr><td>T0 bis T4</td><td>Schweregradeinteilung hinsichtlich des Primärtumors</td></tr><tr><td>T2-Hyperintensität</td><td>durch Kontrastwahl im MRT helle (signalreiche) Darstellung von Wasser und Fett</td></tr><tr><td>T4-Zellen</td><td>T-Helferzellen = CD4-Lymphozyt</td></tr><tr><td>Tbl.</td><td>Tablette</td></tr><tr><td>TBNA</td><td>transbronchiale Nadelaspiration</td></tr><tr><td>TCR</td><td>T-Zell-Rezeptor</td></tr><tr><td>TEP</td><td>Totalendoprothese</td></tr><tr><td>Tg.</td><td>Tag</td></tr><tr><td>TGF-ß</td><td>transformierender Wachstumsfaktor beta</td></tr><tr><td>tgl.</td><td>täglich</td></tr><tr><td>TIA</td><td>transitorische ischämische Attacke</td></tr><tr><td>TL</td><td>Teelöffel</td></tr><tr><td>T-Lymphozyt</td><td>Lymphozyten, die im Thymus ausreifen</td></tr><tr><td>TNF-a</td><td>Tumornekrosefaktor alpha</td></tr><tr><td>T-NHL</td><td>T-Zell-Non-Hodgkin-Lymphom</td></tr><tr><td>TNM-Klassifikation</td><td>Schweregradeinteilung hinsichtlich des Primärtumors (T), des Lymphknotenbefalls (N) und möglicher Metastasen (M)</td></tr><tr><td>Tr.</td><td>Tropfen</td></tr><tr><td>TRAK</td><td>Thyreotropin-Rezeptor-Autoantikörper</td></tr><tr><td>Trit.</td><td>Trituration</td></tr><tr><td>TSH</td><td>Thyreoidea-stimulierendes Hormon (Thyrotropin)</td></tr><tr><td>TTF</td><td>Tumor Treating Fields</td></tr><tr><td>TTF-1</td><td>thyreoidaler Transkriptionsfaktor 1</td></tr><tr><td>TUR-B</td><td>transurethrale Resektion der Harnblase</td></tr><tr><td>T-Zelle</td><td>Lymphozyten, die im Thymus ausreifen</td></tr><tr><td>U</td><td>Ulmus, -i (Ulme)</td></tr><tr><td>UAW</td><td>unerwünschte Arzneimittelwirkung</td></tr><tr><td>UCH-L1</td><td>Ubiquitin-Carboxyl-Terminal-Hydrolase</td></tr><tr><td>U/l</td><td>Enzymeinheit pro Liter</td></tr><tr><td>U/min</td><td>Drehzahl, Umdrehungsfrequenz</td></tr><tr><td>U/ml</td><td>Enzymeinheit pro Milliliter</td></tr><tr><td>uN0 bis uN3</td><td>Zahl und Lage befallener Lymphknoten laut Ultraschalldiagnostik</td></tr><tr><td>Ungt.</td><td>Unguentum</td></tr><tr><td>uT0 bis uT4</td><td>Ausdehnung des Primärtumors laut Ultraschalldiagnostik</td></tr><tr><td>UV(-A/-B)</td><td>Ultraviolettstrahlung</td></tr><tr><td>V0 bis V2</td><td>V-Klassifikation: Vorhandensein einer Veneninvasion</td></tr><tr><td>V1</td><td>Nervus ophthalmicus</td></tr><tr><td>V2</td><td>Nervus maxillaris</td></tr><tr><td>V.a.</td><td>Verdacht auf</td></tr><tr><td>var.</td><td>varietas (Varietät)</td></tr><tr><td>VAS</td><td>Visuelle Analogskala</td></tr><tr><td>v.d.E.</td><td>vor dem Essen</td></tr><tr><td>VEGF</td><td>vaskulärer endothelialer Wachstumsfaktor</td></tr><tr><td>VIN</td><td>vulväre intraepitheliale Neoplasie</td></tr><tr><td>vs.</td><td>versus (im Gegensatz zu)</td></tr><tr><td>VSD</td><td>Ventrikelseptumdefekt</td></tr><tr><td>W 10 % bzw. W 5 %</td><td>Auszüge (bei 37 °C) aus getrockneten Pflanzen(teilen) in Oliven- oder Erdnussöl</td></tr><tr><td>WHO</td><td>Weltgesundheitsorganisation</td></tr><tr><td>Wiesb.</td><td>Wiesbaur</td></tr><tr><td>Wo.</td><td>Woche</td></tr><tr><td>WPW-Syndrom</td><td>Wolff-Parkinson-White-Syndrom</td></tr><tr><td>WS</td><td>Wirbelsäule</td></tr><tr><td>ypN0 bis ypN3</td><td>Zahl und Lage befallener Lymphknoten laut histopathologischer Untersuchung, Z.n. Therapie</td></tr><tr><td>ypT0 bis ypT4</td><td>Ausdehnung des Primärtumors laut histopathologischer Untersuchung, Z.n. Therapie</td></tr><tr><td>Z.n.</td><td>Zustand nach</td></tr><tr><td>z.N.</td><td>zur Nacht</td></tr><tr><td>ZNS</td><td>Zentralnervensystem</td></tr><tr><td>z.T.</td><td>zum Teil</td></tr><tr><td>Zugel.</td><td>zugelassen</td></tr>
+  </table>
+</div></div>
+
+                </div>
+            </div>
+        </section>
+        <button type="button" class="btn-lg" id="btn-back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
+    <footer class="footer mobile">
+      <div class="body-footer feedback">
+              <a href="#" class="feedback-item btn-back">
+          <span class="back" >Zurück</span>
+        </a>
+                    <a href="https://www.vademecum.org/med/de05/search?reset=1" class="feedback-item btn-search">
+          <span class="search" >Suche</span>
+        </a>
+      
+      <button type="button" class="feedback-item context-icon" data-bs-toggle="modal" data-bs-target="#myAccountModal">
+        <span class="user active" >Account</span>
+      </button>
+                            <a href="mailto:?subject=Verzeichnis der Abkürzungen&amp;body=https://www.vademecum.org/med/de05/p19" class="feedback-item btn-share desktop">
+                <span class="share" >Share</span>
+            </a>
+                    <a href="#" class="feedback-item btn-doi desktop" data-doi-click>
+            <span class="doi" >DOI</span>
+        </a>
+        <a href="/med/favorites.html" class="feedback-item btn-fav" data-add-favorite>
+            <span class="fav " >Favoriten</span>
+        </a>
+
+        <a href="" class="feedback-item btn-basics" data-bs-toggle="modal" data-bs-target="#grundlagenModal">
+            <span class="grundlagen">Grundlagen</span>
+        </a>
+          </div>
+  </footer>
+<div class="container bg-light-grey footer-menu desktop">
+  <div class="row">
+    <div class="col">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+            <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335" id="Fill-1" fill="#FFFFFF"></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <ul>
+        <li><a href="/med/favorites.html">Favoriten</a></li>
+        <li><a href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+                  <li><a href="https://www.vademecum.org/med/de05/search?reset=1">Suche</a></li>
+              </ul>
+
+        <ul >
+            <li >
+              <a href="https://www.vademecum.org/med/imprint">Impressum</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/privacy">Datenschutz</a>
+            </li>
+            <li >
+                <a href="https://www.vademecum.org/med/help">Hilfe</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+              </li>
+
+        </ul>
+    </div>
+    <div class="col">
+              <ul>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikationen</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/v00">Viscum album onkologisch</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+            </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+              </li>
+        </ul>
+          </div>
+
+  </div>
+</div>
+<div class="modal fade" id="myAccountModal" aria-labelledby="myAccountModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body context-menu-user">
+        <a href="https://www.vademecum.org/med/logout" class="btn btn-secondary rounded-pill">Logout</a>
+        <a href="https://www.vademecum.org/med/account" class="btn btn-primary rounded-pill">Konto</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="grundlagenModal" aria-labelledby="grundlagenModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body context-menu-user">
+            <a href="https://www.vademecum.org/med/de05/m00" class="btn btn-primary rounded-pill">Grundlagen Misteltherapie</a>
+            <a href="https://www.vademecum.org/med/de05/t00" class="btn btn-primary rounded-pill">Grundlagen Arzneitherapie</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/med/js/jquery-1.11.0.min.js"></script>
+    <script src="/med/js/app.js"></script>
+    <script src="/med/js/validation.js"></script>
+    <script src="/med/js/custom.js"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/med/service-worker.js').then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          if (navigator.serviceWorker.controller) {
+            console.log('Service Worker ready');
+            setupFavoriteButton();
+          } else {
+            console.log('Service Worker not ready');
+            navigator.serviceWorker.oncontrollerchange = function() {
+              console.log('Service Worker now ready');
+              setupFavoriteButton();
+            };
+          }
+        }).catch(function(error) {
+          console.error('Service Worker registration failed:', error);
+        });
+      }
+
+      function setupFavoriteButton() {
+
+        $('body').on('click','[data-feedback-area-fav]', function(e) {
+          e.preventDefault();
+            const url = window.location.href;
+            const title = document.title;
+
+            navigator.serviceWorker.controller.postMessage({
+                type: 'ADD_TO_FAVORITES',
+                url,
+                title
+            });
+            alert('Seite wurde zu den Favoriten hinzugefügt');
+        });
+      }
+
+    </script>
+        <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stats.gaed.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '20']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+  </body>
+</html>

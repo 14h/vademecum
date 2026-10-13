@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/med/ximg/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/med/manifest.json">
+    <title>Vademecum Anthroposophische Arzneimittel | Ärztenamen</title>
+    <link rel="stylesheet" href="/med/css/bootstrap/bootstrap-icons/bootstrap-icons.css"/>
+    <link href="/med/css/main.min.css" rel="stylesheet" />
+    <script src="/med/js/bootstrap.bundle.min.js"></script>
+    <script src="/med/js/popper.min.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: none;
+          }
+        }
+        @media (min-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: flex;
+              flex-direction: row;
+          }
+      }
+    </style>
+                <meta name="description" content="Vademecum Anthroposophische Arzneimittel | Fünfte Auflage | Ärztenamen">
+                <meta name="robots" content="noindex">
+                <script type="application/ld+json">
+          { "@context": "https://schema.org", "@type": "Article", "headline": "Vademecum Anthroposophische Arzneimittel | Ärztenamen", "datePublished": "2025-02-07", "publisher": "Gesellschaft Anthroposophischer Ärzte in Deutschland (GAÄD) und Medizinische Sektion der Freien Hochschule für Geisteswissenschaft, Dornach, Schweiz" }
+        </script>
+        <style>
+        ul.list-group ul {
+            padding-left: 20px; /* Abstand für jede Ebene erhöhen */
+        }
+    </style>
+  </head>
+  <body class="home">
+    <header class="page-header">
+  <nav class="navbar navbar-light">
+    <div class="container g-0">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+          <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App Wort-Bildmarke (Positiv)</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path
+                  d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335"
+                  id="Fill-1"
+                  fill="#FFFFFF"
+                ></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="metanavigation">
+                  <div class="header-editon">
+            <select class="form-select rounded-pill blue-schema" aria-label="Ausgabe wählen" data-select-edition>
+              <option value="">Edition</option>
+                              <option value="de05" selected>DE-05</option>
+                          </select>
+          </div>
+                <div class="icon-menubar">
+                    <div class="icon-menubtn">
+                          <a href="/med/favorites.html" class="icon">
+                <span class="fav inverted">Favoriten</span>
+              </a>
+                      </div>
+                                    <div class="icon-menubtn">
+                <a href="https://www.vademecum.org/med/de05/t00" class="icon">
+                  <span class="grundlagen inverted">Grundlagen</span>
+                </a>
+              </div>
+                        <div class="icon-menubtn dropdown dropdown-header">
+              <button class="icon context-icon" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user inverted active">Mein Konto</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/logout">Logout</a></li>
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+              </ul>
+            </div>
+                                <div class="icon-menubtn">
+              <a href="https://www.vademecum.org/med/de05/search?reset=1" class="icon" id="volltextsuche">
+                <span class="search inverted">Suche</span>
+              </a>
+            </div>
+          
+        </div>
+        <button class="navbar-toggler mobile" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <nav class="navbar navbar-expand-md menu">
+          <div class="collapse navbar-collapse" id="mainMenu">
+
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/account">Mein Konto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/logout">Abmelden</a>
+                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/help">Hilfe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/imprint">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/privacy">Datenschutz</a>
+                </li>
+              </ul>
+                                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 langtext-menu desktop-nav" id="langtext-menu">
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+              </ul>
+                      </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+    <div class="offcanvas offcanvas-top volltextsuche" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Volltextsuche</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="bg-hightlight search-groupe">
+            <input type="text" class="form-control gfg rounded-pill" id="formGroupExampleInput" placeholder="Volltextsuche"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+         <div class="container content-container vademecum-page g-0">
+                 <div class="heading-item title sticky">
+            <h1>Liste der Autoren</h1>
+
+        </div>
+        <section class="langtext-detail ">
+            <div class="row g-0">
+                                <div class="content-body">
+                    
+	
+		<h2 class="intro pt-7" id="p18-01">Autoren</h2>
+			<div data-module="physician-names"><div class="table-container physician-names">
+  <table class="table table-striped">
+    <tr><td>AA</td><td>Andreas Arendt, Schweiz</td></tr><tr><td>AAs</td><td>Angela Assenza, Italien</td></tr><tr><td>ABe</td><td>Anette Bender, Norwegen</td></tr><tr><td>ABi</td><td>Andreas Bindler, Schweiz</td></tr><tr><td>AC</td><td>Almut Chignac, Dtld.</td></tr><tr><td>AE</td><td>Arne Enge, Norwegen</td></tr><tr><td>AEi</td><td>Anette Eichelmann, Dtld.</td></tr><tr><td>AF</td><td>Annegret Fauth, Dtld.</td></tr><tr><td>AFl</td><td>Almut Flebbe, Dtld.</td></tr><tr><td>AG</td><td>Andreas Goyert, Dtld.</td></tr><tr><td>AGe</td><td>Annette Gerhards, Dtld.</td></tr><tr><td>AH</td><td>Annina Höltgen, Dtld.</td></tr><tr><td>AHa</td><td>Anke Haas, Dtld.</td></tr><tr><td>AHe</td><td>Andreas Hessenbruch, Dtld.</td></tr><tr><td>AHi</td><td>Alexander Hintze, Schweiz</td></tr><tr><td>AHo</td><td>Andreas Hofinga, Dtld.</td></tr><tr><td>AHu</td><td>Armin Husemann, Dtld.</td></tr><tr><td>AK</td><td>Angela Kuck, Schweiz</td></tr><tr><td>AKo</td><td>Andreas Korselt, Dtld.</td></tr><tr><td>AL</td><td>Alfred Längler, Dtld.</td></tr><tr><td>AM</td><td>Angelika Maaser, Dtld.</td></tr><tr><td>AnG</td><td>Anton Gerretsen, Niederlande</td></tr><tr><td>AO</td><td>Andreas Ossapofsky, Dtld.</td></tr><tr><td>AR</td><td>Andreas Rivoir, Dtld.</td></tr><tr><td>ArA</td><td>Armin Alles, Dtld.</td></tr><tr><td>AS</td><td>Angela Szopos-Benedek, Dtld.</td></tr><tr><td>ASa</td><td>Annegret Sandig, Dtld.</td></tr><tr><td>ASch</td><td>Arne Schmidt, Dtld.</td></tr><tr><td>ASt</td><td>Astrid Sterner, Dtld.</td></tr><tr><td>AV</td><td>Annegret Voigt, Dtld.</td></tr><tr><td>AW</td><td>Albrecht Warning, Dtld.</td></tr><tr><td>AWe</td><td>Albrecht Weber, Dtld.</td></tr><tr><td>BB</td><td>Barbara Brandl, Dtld.</td></tr><tr><td>BBa</td><td>Barbara Bachert, Dtld.</td></tr><tr><td>BC</td><td>Bruno Callegaro, Dtld.</td></tr><tr><td>BeR</td><td>Benedikt Rogge, Dtld.</td></tr><tr><td>BH</td><td>Benedikt Huber, Schweiz</td></tr><tr><td>BK</td><td>Bernardo Kaliks, Brasilien</td></tr><tr><td>BL</td><td>Bernd Labonte, Dtld.</td></tr><tr><td>BM</td><td>Bart Maris, Dtld.</td></tr><tr><td>BR</td><td>Björn Riggenbach, Schweiz</td></tr><tr><td>BrR</td><td>Brigitte Roesler, Dtld.</td></tr><tr><td>BSS</td><td>Beatriz Sanchez Segura, Spanien</td></tr><tr><td>BZG</td><td>Barbara Ziegler-Gundlach, Dtld.</td></tr><tr><td>CB</td><td>Claude Boudot, Frankreich</td></tr><tr><td>CBC</td><td>Cornelia Blaich-Czink, Schweiz</td></tr><tr><td>CBe</td><td>Christoph Bernhardt, Dtld.</td></tr><tr><td>CdC</td><td>Carmem de Carvalho, Brasilien</td></tr><tr><td>CE</td><td>Claudio Elli, Italien</td></tr><tr><td>CG</td><td>Christian Grah, Dtld.</td></tr><tr><td>ChK</td><td>Christoph Kaufmann, Schweiz</td></tr><tr><td>ChrS</td><td>Christian Scheffer, Dtld.</td></tr><tr><td>ChSch</td><td>Christian Schikarski, Dtld.</td></tr><tr><td>ClSch</td><td>Claus Schindler, Dtld.</td></tr><tr><td>CM</td><td>Christina Messmer, Schweiz</td></tr><tr><td>CMa</td><td>Marco Cavo, Italien</td></tr><tr><td>CMe</td><td>Claudia Menzel, Dtld.</td></tr><tr><td>CMo</td><td>Christopher Morash, Kanada</td></tr><tr><td>CO</td><td>Christian Osika, Schweden</td></tr><tr><td>CoBe</td><td>Corrado Bertotto, Schweiz</td></tr><tr><td>CP</td><td>Christina Plath, Dtld.</td></tr><tr><td>CR</td><td>Christoph Rubens, Dtld.</td></tr><tr><td>CS</td><td>Christoph Schempp, Dtld.</td></tr><tr><td>CSch</td><td>Christof Schnürer, Dtld.</td></tr><tr><td>CT</td><td>Christoph Tautz, Dtld.</td></tr><tr><td>CU</td><td>Casper Post Uiterweer, Niederlande</td></tr><tr><td>CvT</td><td>Christa van Tellingen, Niederlande</td></tr><tr><td>CW</td><td>Christoph Wirz, Schweiz</td></tr><tr><td>CZ</td><td>Christof Zwart, Niederlande</td></tr><tr><td>DA</td><td>Dirk Arntzen, Dtld.</td></tr><tr><td>DaP</td><td>Daniela Paepke, Dtld.</td></tr><tr><td>DB</td><td>Dirk Buchwald, Dtld.</td></tr><tr><td>DdM</td><td>David Martin, Dtld.</td></tr><tr><td>DF</td><td>Daniela Fritzsche, Dtld.</td></tr><tr><td>DH</td><td>Dieter Horn, Dtld.</td></tr><tr><td>DHe</td><td>Dieter Helling, Dtld.</td></tr><tr><td>DL</td><td>Dominique Leiber, Frankreich</td></tr><tr><td>DM</td><td>Dirk Meister, Dtld.</td></tr><tr><td>DO</td><td>Doris Ossapofsky, Dtld.</td></tr><tr><td>DP</td><td>Dagmar Peters, Dtld.</td></tr><tr><td>DR</td><td>Dieter Roth, Schweiz</td></tr><tr><td>DS</td><td>Dorothea Schläpfer, Österreich</td></tr><tr><td>DSch</td><td>Dietrich Scholl, Dtld.</td></tr><tr><td>DSchl</td><td>Dietrich Schlodder, Dtld.</td></tr><tr><td>DSe</td><td>Dietmar Schelcher, Dtld.</td></tr><tr><td>DvB</td><td>Daphné von Boch, Dtld.</td></tr><tr><td>DW</td><td>Dieter Walbaum, Dtld.</td></tr><tr><td>EBa</td><td>Elena Barbieri, Italien</td></tr><tr><td>EdS</td><td>Edmond Schoorel, Niederlande</td></tr><tr><td>EE</td><td>Ernst Ellis, Niederlande</td></tr><tr><td>EG</td><td>Elke Sandra Großklaus, Dtld.</td></tr><tr><td>EGH</td><td>Elisabeth Gabka-Hess, Dtld.</td></tr><tr><td>EH</td><td>Erika Hammer, Dtld.</td></tr><tr><td>EJF</td><td>Edith Jacober-Frischknecht, Schweiz</td></tr><tr><td>EL</td><td>Ernst Lehner, Österreich</td></tr><tr><td>EM</td><td>Enrico Mariani, Italien</td></tr><tr><td>EP</td><td>Emanuela Portalupi, Italien</td></tr><tr><td>ER</td><td>Ernst Joachim Reichelt, Schweiz</td></tr><tr><td>ES</td><td>Eva Streit, Schweiz</td></tr><tr><td>ET</td><td>Eduard Trinker, Österreich</td></tr><tr><td>EZ</td><td>Emilio Zavattaro, Italien</td></tr><tr><td>FB</td><td>Felix Baur-Zuber, Schweiz</td></tr><tr><td>FC</td><td>Fabio Ciserani, Italien</td></tr><tr><td>FE</td><td>Friedrich Edelhäuser, Dtld.</td></tr><tr><td>FEs</td><td>Fabrizio Esposito, Dtld.</td></tr><tr><td>FH</td><td>Friedwart Husemann, Dtld.</td></tr><tr><td>FHe</td><td>Freimuth Hessenbruch, Dtld.</td></tr><tr><td>FHi</td><td>Francois Hibou, Frankreich</td></tr><tr><td>FM</td><td>Frank Meyer, Dtld.</td></tr><tr><td>FR</td><td>Franziska Roemer, Dtld.</td></tr><tr><td>FS</td><td>Felix Schirmer, Schweiz</td></tr><tr><td>FSch</td><td>Friedemann Schad, Dtld.</td></tr><tr><td>FVR</td><td>Fernanda Vilaghy-Ramstein, Schweiz</td></tr><tr><td>GB</td><td>Giancarlo Buccheri, Italien</td></tr><tr><td>GC</td><td>Giancarlo Cimino, Italien</td></tr><tr><td>GCa</td><td>Guido Cantamessa, Italien</td></tr><tr><td>GD</td><td>Gaston Dunkelmann, Schweiz</td></tr><tr><td>GF</td><td>Giulio Faccini, Italien</td></tr><tr><td>GG</td><td>Gabriele Gloger, Dtld.</td></tr><tr><td>GGi</td><td>Gabriella Gianni, Italien</td></tr><tr><td>GH</td><td>Godhard-Michael Husemann, Dtld.</td></tr><tr><td>GiK</td><td>Gilbert König, Dtld.</td></tr><tr><td>GK</td><td>Gottfried Klemp, Dtld.</td></tr><tr><td>GKi</td><td>Gunver S. Kienle, Dtld.</td></tr><tr><td>GL</td><td>Gunvor Lunde, Schweden</td></tr><tr><td>GrS</td><td>Gregor Sträter, Dtld.</td></tr><tr><td>GS</td><td>Georg Soldner, Dtld.</td></tr><tr><td>GSa</td><td>Gerhard Saltzwedel, Dtld.</td></tr><tr><td>GSch</td><td>Gabriele Schaefermeyer, Dtld.</td></tr><tr><td>GSi</td><td>Gesa Sitaras, Dtld.</td></tr><tr><td>GSm</td><td>Gisel Schmidt, Dtld.</td></tr><tr><td>GSt</td><td>Gabriela Stammer, Dtld.</td></tr><tr><td>GWH</td><td>Gudrune Wolff-Hoffmann, Schweiz</td></tr><tr><td>HA</td><td>Hans-Ulrich Albonico, Schweiz</td></tr><tr><td>HB</td><td>Hans Bleiker, Schweiz</td></tr><tr><td>HBL</td><td>Hans-Broder von Laue, Dtld.</td></tr><tr><td>HdR</td><td>Huib de Ruiter, Niederlande</td></tr><tr><td>HeM</td><td>Helena Maryns, Belgien</td></tr><tr><td>HeS</td><td>Heinrich Schaefermeyer, Dtld.</td></tr><tr><td>HHV</td><td>Heinz-Hartmut Vogel, Dtld.</td></tr><tr><td>HK</td><td>Heinrich Kreft, Dtld.</td></tr><tr><td>HKe</td><td>Helmut Keil, Dtld.</td></tr><tr><td>HM</td><td>Hubertus Magerstädt, Dtld.</td></tr><tr><td>HMa</td><td>Harald Matthes, Dtld.</td></tr><tr><td>HMas</td><td>Heiner Mast, Dtld.</td></tr><tr><td>HMS</td><td>Michael Stellmann, Dtld.</td></tr><tr><td>HP</td><td>Heidi Pechmann, Dtld.</td></tr><tr><td>HR</td><td>Hartmut Rieß, Dtld.</td></tr><tr><td>HRM</td><td>Hans-Robert Metelmann, Dtld.</td></tr><tr><td>HS</td><td>Henrik Szöke, Ungarn</td></tr><tr><td>HSch</td><td>Hans Schwaiger, Österreich</td></tr><tr><td>HvL</td><td>Harry von Lorentz, Dtld.</td></tr><tr><td>HvLoe</td><td>Hermann von Löwensprung, Dtld.</td></tr><tr><td>HW</td><td>Hans Werner, Dtld.</td></tr><tr><td>IB</td><td>Inge Beumer, Dtld.</td></tr><tr><td>IM</td><td>Ilona Metz, Dtld.</td></tr><tr><td>IN</td><td>Ilona Neisecke, Dtld.</td></tr><tr><td>IOC</td><td>Iramaia Oliveira Chaguri, Brasilien</td></tr><tr><td>IP</td><td>Irene Peltzer, Dtld.</td></tr><tr><td>IS</td><td>Irene Stiltz, Dtld.</td></tr><tr><td>JaE</td><td>Jana Ertl, Schweiz</td></tr><tr><td>JBP</td><td>Joon Beom Park, Republik Korea</td></tr><tr><td>JCB</td><td>Jean Claude Bourgois, Frankreich</td></tr><tr><td>JCS</td><td>Julia Cáceres Sedeno, Dtld.</td></tr><tr><td>JE</td><td>Johanna Edelbauer, Österreich</td></tr><tr><td>JG</td><td>Johannes Gutsch, Dtld.</td></tr><tr><td>JGN</td><td>Jan-Gabriel Niedermeier, Dtld.</td></tr><tr><td>JJ</td><td>Johannes Jansen, Niederlande</td></tr><tr><td>JK</td><td>Jürgen-Johannes Kuehn, Schweiz</td></tr><tr><td>JKl</td><td>Jörn Klasen, Dtld.</td></tr><tr><td>JL</td><td>Joost Laceulle, Niederlande</td></tr><tr><td>JM</td><td>Jürgen Möller, Dtld.</td></tr><tr><td>JR</td><td>Johannes Rust, Dtld.</td></tr><tr><td>JS</td><td>Jürgen Schürholz, Dtld.</td></tr><tr><td>JSu</td><td>Jonas Sullivan, Schweden</td></tr><tr><td>JU</td><td>Jörg Urban, Dtld.</td></tr><tr><td>JV</td><td>Julia Veil, Dtld.</td></tr><tr><td>JvD</td><td>Joop van Dam, Niederlande</td></tr><tr><td>JvG</td><td>Jannetje van Groningen, Niederlande</td></tr><tr><td>JvR</td><td>Johannes von Redwitz, Dtld.</td></tr><tr><td>JW</td><td>Johannes Wilkens, Dtld.</td></tr><tr><td>JZ</td><td>Jean Zandonella, Frankreich</td></tr><tr><td>KH</td><td>Klaus Hadamovsky, Dtld.</td></tr><tr><td>KL</td><td>Kerstin Laube, Dtld.</td></tr><tr><td>KM</td><td>Karin Michael, Dtld.</td></tr><tr><td>KMA</td><td>Kenneth McAlister, Kanada</td></tr><tr><td>KN</td><td>Klaus Niewind, Dtld.</td></tr><tr><td>KP</td><td>Karola Pflüger, Schweiz</td></tr><tr><td>KRK</td><td>Karl-Reinhard Kummer, Dtld.</td></tr><tr><td>KS</td><td>Katharina Schlüter, Dtld.</td></tr><tr><td>KSS</td><td>Kathrin Studer-Senn, Schweiz</td></tr><tr><td>KvD</td><td>Kerstin van den Dool, Dtld.</td></tr><tr><td>KWo</td><td>Kathrin Wode, Schweden</td></tr><tr><td>LB</td><td>Laura Borghi, Italien</td></tr><tr><td>LG</td><td>Lars Gerlach, Dtld.</td></tr><tr><td>LGa</td><td>Lydia Garnitschnig, Dtld.</td></tr><tr><td>LH</td><td>Lothar Hollerbach, Dtld.</td></tr><tr><td>LJ</td><td>Lüder Jachens, Dtld.</td></tr><tr><td>LK</td><td>Lothar Kindermann, Dtld.</td></tr><tr><td>LKn</td><td>Leonhard Knittel, Dtld.</td></tr><tr><td>LR</td><td>Lukas Rist, Schweiz</td></tr><tr><td>LS</td><td>Ludger Simon, Dtld.</td></tr><tr><td>LT</td><td>Lars Teschke, Dtld.</td></tr><tr><td>LV</td><td>Luc Vandecasteele, Belgien</td></tr><tr><td>MA</td><td>Mauro Alivia, Italien</td></tr><tr><td>MaDe</td><td>Matthias Deutloff, Dtld.</td></tr><tr><td>MaH</td><td>Marga Hogenboom, Niederlande</td></tr><tr><td>MAK</td><td>Mailänder Ärztekreis, Italien</td></tr><tr><td>MaKr</td><td>Matthias Kröz, Dtld.</td></tr><tr><td>MaM</td><td>Mario Mayrhoffer, Österreich</td></tr><tr><td>MaWe</td><td>Martin Welschinger, Dtld.</td></tr><tr><td>MaWi</td><td>Markus Wispler, Dtld.</td></tr><tr><td>MaZ</td><td>Mathias Zeller, Schweiz</td></tr><tr><td>MB</td><td>Maria Bovelet, Dtld.</td></tr><tr><td>MBi</td><td>Monika Bittner, Dtld.</td></tr><tr><td>MBo</td><td>Maxie Bovelet, Dtld.</td></tr><tr><td>MD</td><td>Martha Dickreiter, Dtld.</td></tr><tr><td>MDe</td><td>Marion Debus, Dtld.</td></tr><tr><td>ME</td><td>Marco Ephraim, Niederlande</td></tr><tr><td>MFL</td><td>Maria Franzesca Lingua, Schweiz</td></tr><tr><td>MG</td><td>Martin Gmeindl, Österreich</td></tr><tr><td>MGi</td><td>Matthias Girke, Dtld.</td></tr><tr><td>MH</td><td>Michael Hübner, Dtld.</td></tr><tr><td>MHa</td><td>Mark Hancock, USA</td></tr><tr><td>MHu</td><td>Michael Hufschmidt, Dtld.</td></tr><tr><td>MI</td><td>Michael Iskenius, Dtld.</td></tr><tr><td>MiS</td><td>Michael Schneider, Dtld.</td></tr><tr><td>MJ</td><td>Myrta Jund, Schweiz</td></tr><tr><td>MK</td><td>Markus Karutz, Dtld.</td></tr><tr><td>MKa</td><td>Marc Katchen, USA</td></tr><tr><td>MKr</td><td>Maria Kreye, Dtld.</td></tr><tr><td>MKS</td><td>Marina Kayser-Springorum, Dtld.</td></tr><tr><td>MKu</td><td>Maria Kusserow, Dtld.</td></tr><tr><td>ML</td><td>Michael Lorenz, Schweiz</td></tr><tr><td>MM</td><td>Marco Melone, Italien</td></tr><tr><td>MMe</td><td>Mónica Mennet-von Eiff, Schweiz</td></tr><tr><td>MMS</td><td>Maria-Anna Menzl-Steinbrecher, AT</td></tr><tr><td>MN</td><td>Matthias Nabrotzki, Dtld.</td></tr><tr><td>MOr</td><td>Maurice Orange, Schweiz</td></tr><tr><td>MP</td><td>Markus Peters, Dtld.</td></tr><tr><td>MPG</td><td>Maria Pia Gius, Italien</td></tr><tr><td>MR</td><td>Maria Rottensteiner, Österreich</td></tr><tr><td>MRo</td><td>Marcus Roggatz, Dtld.</td></tr><tr><td>MS</td><td>Markus Sommer, Dtld.</td></tr><tr><td>MSa</td><td>Mathias Sauer, Dtld.</td></tr><tr><td>MSch</td><td>Marnix Schaubroeck, Belgien</td></tr><tr><td>MSi</td><td>Dag Mandev Singh, Dtld.</td></tr><tr><td>MSr</td><td>Michael Sarrach, Dtld.</td></tr><tr><td>MSt</td><td>Martin Straube, Dtld.</td></tr><tr><td>MT</td><td>Markus Treichler, Dtld.</td></tr><tr><td>MTT</td><td>Mariateresa Torri, Italien</td></tr><tr><td>MW</td><td>Manfred Weckenmann, Dtld.</td></tr><tr><td>MWa</td><td>Martin Wassermeyer, Dtld.</td></tr><tr><td>MWe</td><td>Monika Weber, Dtld.</td></tr><tr><td>MWg</td><td>Markus Wegner, Dtld.</td></tr><tr><td>MWi</td><td>Madeleen Winkler, Niederlande</td></tr><tr><td>MZ</td><td>Mario Zöllner, Dtld.</td></tr><tr><td>NA</td><td>Nail el Arif, Dtld.</td></tr><tr><td>NB</td><td>Norbert Baltes, Dtld.</td></tr><tr><td>ND</td><td>Norbert Disterheft, Dtld.</td></tr><tr><td>NF</td><td>Nicola Fels, Dtld.</td></tr><tr><td>NiS</td><td>Nikola Schneider, Dtld.</td></tr><tr><td>NL</td><td>Nikolaus Landbeck, Dtld.</td></tr><tr><td>NR</td><td>Niek Rogger, Niederlande</td></tr><tr><td>NS</td><td>Norbert Schweig, Dtld.</td></tr><tr><td>OT</td><td>Olaf Titze, Dtld.</td></tr><tr><td>PA</td><td>Peter Andersson, Schweden</td></tr><tr><td>PB</td><td>Philipp Busche, Dtld.</td></tr><tr><td>PH</td><td>Peter Heusser, Dtld.</td></tr><tr><td>PI</td><td>Pia Inter, Dtld.</td></tr><tr><td>PiB</td><td>Pia Büchi, Schweiz</td></tr><tr><td>PJ</td><td>Paul Janach, Schweiz</td></tr><tr><td>PK</td><td>Petra Keller, Dtld.</td></tr><tr><td>PM</td><td>Pedro Mösch, Schweiz</td></tr><tr><td>PV</td><td>Paulo Volkmann, Brasilien</td></tr><tr><td>PZ</td><td>Peter Zimmermann, Finnland</td></tr><tr><td>RBI</td><td>Regina Bösch-Illi, Schweiz</td></tr><tr><td>RC</td><td>Roberto Crottogini, Argentinien</td></tr><tr><td>RE</td><td>Reinhard Ernst, Dtld.</td></tr><tr><td>Red</td><td>Vademecum-Redaktion</td></tr><tr><td>RF</td><td>Robert Fitger, Dtld.</td></tr><tr><td>RJ</td><td>Reinhard Jeserschek, Österreich</td></tr><tr><td>RKa</td><td>Renate Karutz, Dtld.</td></tr><tr><td>RKe</td><td>Robert Kempenich, Frankreich</td></tr><tr><td>RKi</td><td>Reinhard Kindt, Dtld.</td></tr><tr><td>RKl</td><td>Rolf Klepzig, Dtld.</td></tr><tr><td>RKr</td><td>Riny Kraamwinkel, Niederlande</td></tr><tr><td>RKv</td><td>Renate Kviske, Dtld.</td></tr><tr><td>RL</td><td>Rita Leroi-von May-Rettich, Schweiz</td></tr><tr><td>RM</td><td>Reinhard Menzel, Dtld.</td></tr><tr><td>RMa</td><td>Rene Madeleyn, Dtld.</td></tr><tr><td>RO</td><td>Rosemarie Oettli, Schweiz</td></tr><tr><td>RP</td><td>Roman Pönisch, Dtld.</td></tr><tr><td>RS</td><td>Reinhard Schwarz, Österreich</td></tr><tr><td>RSo</td><td>Reiner Sollfrank, Dtld.</td></tr><tr><td>RSoe</td><td>Rainer Soeder, Dtld.</td></tr><tr><td>RSw</td><td>Renate Schweigert, Dtld.</td></tr><tr><td>RW</td><td>Renata Wispler, Dtld.</td></tr><tr><td>RZ</td><td>Rosselke Zech-Wertheim Aymes, Dtld.</td></tr><tr><td>SaS</td><td>Sabine Sebastian, Dtld.</td></tr><tr><td>SB</td><td>Siegfried Bussinger, Dtld.</td></tr><tr><td>SBi</td><td>Susanne Bischoff, Dtld.</td></tr><tr><td>SD</td><td>Siegfried Dreher, Dtld.</td></tr><tr><td>SG</td><td>Sheila Grande, Brasilien</td></tr><tr><td>SGe</td><td>Stefan Geider, Grossbritannien</td></tr><tr><td>SH</td><td>Simone Hoffmann, Dtld.</td></tr><tr><td>SHe</td><td>Silke Helwig, Schweiz</td></tr><tr><td>SK</td><td>Susanne Kunz, Dtld.</td></tr><tr><td>SMF</td><td>Sergio Maria Francardo, Italien</td></tr><tr><td>SN</td><td>Sigurd Nes, Norwegen</td></tr><tr><td>SoS</td><td>Sophia Strauss, Dtld.</td></tr><tr><td>SV</td><td>Susanne Vogel, Dtld.</td></tr><tr><td>SvL</td><td>Sonja von Lorentz, Österreich</td></tr><tr><td>SW</td><td>Sophia Wittchow, Dtld.</td></tr><tr><td>TB</td><td>Tomáš Bouzek, Tschechische Republik</td></tr><tr><td>TD</td><td>Tobias Daumüller, Dtld.</td></tr><tr><td>TGe</td><td>Thomas Geisse, Dtld.</td></tr><tr><td>ThB</td><td>Thomas Breitkreuz, Dtld.</td></tr><tr><td>ThG</td><td>Thomas Garbe, Niederlande</td></tr><tr><td>TJZ</td><td>Tycho J. Zuzak, Dtld.</td></tr><tr><td>TN</td><td>Tilke Nonnenkamp, Dtld.</td></tr><tr><td>TO</td><td>Ton van Osch, Niederlande</td></tr><tr><td>TS</td><td>Thea Staab, Dtld.</td></tr><tr><td>TSA</td><td>Tido von Schoen-Angerer, Schweiz</td></tr><tr><td>TT</td><td>Torsten Traut, Dtld.</td></tr><tr><td>TTs</td><td>Thengis Tsouloukidse, Dtld.</td></tr><tr><td>TVa</td><td>Tamar Vaschakidze, Georgien</td></tr><tr><td>TWB</td><td>Tonya van Walré de Bordes, NL</td></tr><tr><td>UB</td><td>Ulrike Bartram, Dtld.</td></tr><tr><td>UBa</td><td>Ulrike Basting, Dtld.</td></tr><tr><td>UF</td><td>Ursula Flatters, Schweden</td></tr><tr><td>UH</td><td>Ulrich Hartmann, Dtld.</td></tr><tr><td>UM</td><td>Ulrich Meyer, Dtld.</td></tr><tr><td>UR</td><td>Uwe-Michael Roth, Dtld.</td></tr><tr><td>US</td><td>Uwe Semmelroggen, Schweiz</td></tr><tr><td>USch</td><td>Ursula Schad, Dtld.</td></tr><tr><td>USt</td><td>Ulrike Steurer, Dtld.</td></tr><tr><td>UvR</td><td>Ulrich von Rath, Dtld.</td></tr><tr><td>UW</td><td>Ursula Wolf, Schweiz</td></tr><tr><td>VB</td><td>Volker Bergengrün, Dtld.</td></tr><tr><td>VH</td><td>Vincent Hedon, Frankreich</td></tr><tr><td>VK</td><td>Veronika Kestenholz, Schweiz</td></tr><tr><td>WD</td><td>Walter Dahlhaus, Dtld.</td></tr><tr><td>WE</td><td>Wouter Endel, Belgien</td></tr><tr><td>WF</td><td>Wolfram Faber, Dtld.</td></tr><tr><td>WG</td><td>Wolfgang Güldenstern, Dtld.</td></tr><tr><td>WH</td><td>Wolfram Henn, Dtld.</td></tr><tr><td>WK</td><td>Wolfgang Krahne, Dtld.</td></tr><tr><td>WKR</td><td>Wilburg Keller Roth, Schweiz</td></tr><tr><td>WL</td><td>Walter Legnani, Italien</td></tr><tr><td>WM</td><td>Wolf Marstaller, Dtld.</td></tr><tr><td>WP</td><td>Wolfgang Pfleger, Dtld.</td></tr><tr><td>WR</td><td>Wolfgang Rißmann, Dtld.</td></tr><tr><td>WS</td><td>Wolfgang Schuster, Dtld.</td></tr><tr><td>WT</td><td>Wilfried Tröger, Dtld.</td></tr><tr><td>WvL</td><td>Wessel von Loe, Dtld.</td></tr><tr><td>XP</td><td>Xavier Perrut, Frankreich</td></tr><tr><td>YV</td><td>Yván Villegas Alvarado, Peru</td></tr>
+  </table>
+</div></div>
+
+                </div>
+            </div>
+        </section>
+        <button type="button" class="btn-lg" id="btn-back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
+    <footer class="footer mobile">
+      <div class="body-footer feedback">
+              <a href="#" class="feedback-item btn-back">
+          <span class="back" >Zurück</span>
+        </a>
+                    <a href="https://www.vademecum.org/med/de05/search?reset=1" class="feedback-item btn-search">
+          <span class="search" >Suche</span>
+        </a>
+      
+      <button type="button" class="feedback-item context-icon" data-bs-toggle="modal" data-bs-target="#myAccountModal">
+        <span class="user active" >Account</span>
+      </button>
+                            <a href="mailto:?subject=Liste der Autoren&amp;body=https://www.vademecum.org/med/de05/p18" class="feedback-item btn-share desktop">
+                <span class="share" >Share</span>
+            </a>
+                    <a href="#" class="feedback-item btn-doi desktop" data-doi-click>
+            <span class="doi" >DOI</span>
+        </a>
+        <a href="/med/favorites.html" class="feedback-item btn-fav" data-add-favorite>
+            <span class="fav " >Favoriten</span>
+        </a>
+
+        <a href="" class="feedback-item btn-basics" data-bs-toggle="modal" data-bs-target="#grundlagenModal">
+            <span class="grundlagen">Grundlagen</span>
+        </a>
+          </div>
+  </footer>
+<div class="container bg-light-grey footer-menu desktop">
+  <div class="row">
+    <div class="col">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+            <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335" id="Fill-1" fill="#FFFFFF"></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <ul>
+        <li><a href="/med/favorites.html">Favoriten</a></li>
+        <li><a href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+                  <li><a href="https://www.vademecum.org/med/de05/search?reset=1">Suche</a></li>
+              </ul>
+
+        <ul >
+            <li >
+              <a href="https://www.vademecum.org/med/imprint">Impressum</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/privacy">Datenschutz</a>
+            </li>
+            <li >
+                <a href="https://www.vademecum.org/med/help">Hilfe</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+              </li>
+
+        </ul>
+    </div>
+    <div class="col">
+              <ul>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikationen</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/v00">Viscum album onkologisch</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+            </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+              </li>
+        </ul>
+          </div>
+
+  </div>
+</div>
+<div class="modal fade" id="myAccountModal" aria-labelledby="myAccountModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body context-menu-user">
+        <a href="https://www.vademecum.org/med/logout" class="btn btn-secondary rounded-pill">Logout</a>
+        <a href="https://www.vademecum.org/med/account" class="btn btn-primary rounded-pill">Konto</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="grundlagenModal" aria-labelledby="grundlagenModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body context-menu-user">
+            <a href="https://www.vademecum.org/med/de05/m00" class="btn btn-primary rounded-pill">Grundlagen Misteltherapie</a>
+            <a href="https://www.vademecum.org/med/de05/t00" class="btn btn-primary rounded-pill">Grundlagen Arzneitherapie</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/med/js/jquery-1.11.0.min.js"></script>
+    <script src="/med/js/app.js"></script>
+    <script src="/med/js/validation.js"></script>
+    <script src="/med/js/custom.js"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/med/service-worker.js').then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          if (navigator.serviceWorker.controller) {
+            console.log('Service Worker ready');
+            setupFavoriteButton();
+          } else {
+            console.log('Service Worker not ready');
+            navigator.serviceWorker.oncontrollerchange = function() {
+              console.log('Service Worker now ready');
+              setupFavoriteButton();
+            };
+          }
+        }).catch(function(error) {
+          console.error('Service Worker registration failed:', error);
+        });
+      }
+
+      function setupFavoriteButton() {
+
+        $('body').on('click','[data-feedback-area-fav]', function(e) {
+          e.preventDefault();
+            const url = window.location.href;
+            const title = document.title;
+
+            navigator.serviceWorker.controller.postMessage({
+                type: 'ADD_TO_FAVORITES',
+                url,
+                title
+            });
+            alert('Seite wurde zu den Favoriten hinzugefügt');
+        });
+      }
+
+    </script>
+        <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stats.gaed.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '20']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+  </body>
+</html>

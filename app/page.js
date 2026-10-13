@@ -1,129 +1,163 @@
 "use client";
+import {useEffect, useMemo, useRef, useState} from 'react';
 
-import { useEffect, useMemo, useState } from "react";
-
-const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 const modes = {
-  medicines: { label: "Arzneimittel", endpoint: "/vademecum.json", searchLabel: "Arzneimittel" },
-  indications: { label: "Indikationen", endpoint: "/indikationen.json", searchLabel: "Indikation" },
+    medicines: {label: 'Arzneimittel', file: '/vademecum.json'},
+    indications: {label: 'Indikationen', file: '/indikationen.json'}
 };
-
 export default function Home() {
-  const [data, setData] = useState(null);
-  const [mode, setMode] = useState("medicines");
-  const [activeLetter, setActiveLetter] = useState("A");
-  const [query, setQuery] = useState("");
+    const requestVersion = useRef(0);
+    const [mode, setMode] = useState('medicines'), [data, setData] = useState(null), [query, setQuery] = useState(''), [letter, setLetter] = useState('A'), [selection, setSelection] = useState(null), [doc, setDoc] = useState(null), [error, setError] = useState(''), [anchor, setAnchor] = useState('');
+    useEffect(() => {
+        const controller = new AbortController();
+        setData(null);
+        fetch(modes[mode].file, {signal: controller.signal})
+            .then(r => r.json())
+            .then(setData)
+            .catch(e => {
+                if (e.name !== 'AbortError') {
+                    setError('Index konnte nicht geladen werden.');
+                }
+            });
+        return () => controller.abort();
+    }, [mode]);
+    const entries = useMemo(() => (data?.items ?? []).filter(item => query.trim() ? item.name.toLocaleLowerCase()
+                                                                                        .includes(query.trim()
+                                                                                                       .toLocaleLowerCase()) : item.letter === letter), [data, query, letter]);
 
-  useEffect(() => {
-    setData(null);
-    fetch(modes[mode].endpoint, { cache: "no-store" })
-      .then((response) => response.json())
-      .then(setData);
-  }, [mode]);
+    async function open(url, name, followAnchor = false) {
+        const parsed = new URL(url, 'https://www.vademecum.org');
+        const id = parsed.pathname.match(/\/([gvm]\d+)(?:\.html)?$/)?.[1];
+        if (!id) {
+            return;
+        }
+        const version = ++requestVersion.current;
+        setSelection({name, url});
+        setDoc(null);
+        setError('');
+        setAnchor(followAnchor ? parsed.hash.slice(1) : '');
+        window.scrollTo({top: 0, left: 0, behavior: 'instant'});
+        document.querySelector('.reader')?.scrollTo({top: 0, left: 0, behavior: 'instant'});
+        try {
+            const response = await fetch(`/documents/${id}.json`);
+            if (!response.ok) {
+                throw new Error();
+            }
+            const next = await response.json();
+            if (version === requestVersion.current) {
+                setDoc(next);
+            }
+        } catch {
+            if (version === requestVersion.current) {
+                setError('Dokument konnte nicht geladen werden.');
+            }
+        }
+    }
 
-  const entries = useMemo(() => {
-    if (!data) return [];
-    const normalizedQuery = query.trim().toLocaleLowerCase();
-    const candidates = normalizedQuery ? data.items : data.items.filter((item) => item.letter === activeLetter);
+    useEffect(() => {
+        if (!doc) {
+            return;
+        }
+        const target = anchor && document.getElementById(`content-${anchor}`);
+        if (target) {
+            target.scrollIntoView({block: 'start'});
+        } else {
+            document.querySelector('.reader')
+                    ?.scrollTo(0, 0);
+        }
+    }, [doc, anchor]);
 
-    if (!normalizedQuery) return candidates;
-    return candidates.filter((item) => item.name.toLocaleLowerCase().includes(normalizedQuery));
-  }, [activeLetter, data, query]);
+    function render(node, key) {
+        if (node.type === 'text') {
+            return node.text;
+        }
+        const props = {...(node.id && {id: `content-${node.id}`})};
+        const children = node.children?.map((child, i) => render(child, `${key}-${i}`));
+        if (node.type === 'image') {
+            return <figure key={key} {...props}><img src={node.src} alt={node.alt}
+                                                     loading="lazy"/></figure>;
+        }
+        if (node.type === 'break') {
+            return <br key={key} {...props}/>;
+        }
+        if (node.type === 'link') {
+            const internal = /^#|\/offline\/documents\/|https?:\/\/(?:www\.)?vademecum\.org\/med\/de05\//.test(node.href);
+            return <a key={key} {...props} href={node.href} onClick={internal ? e => {
+                e.preventDefault();
+                if (node.href.startsWith('#')) {
+                    document.getElementById(`content-${node.href.slice(1)}`)
+                            ?.scrollIntoView();
+                } else {
+                    open(node.href, 'Dokument', true);
+                }
+            } : undefined} target={internal ? undefined : '_blank'}
+                      rel={internal ? undefined : 'noreferrer'}>{children}</a>;
+        }
+        const tags = {
+            inline: 'span',
+            paragraph: 'p',
+            list: node.ordered ? 'ol' : 'ul',
+            item: 'li',
+            strong: 'strong',
+            emphasis: 'em',
+            table: 'table',
+            row: 'tr',
+            cell: 'td',
+            sup: 'sup',
+            sub: 'sub',
+            heading: `h${Math.min(node.level ?? 2, 4)}`,
+            group: 'div'
+        };
+        const Tag = tags[node.type] ?? 'div';
+        return <Tag key={key} {...props}>{children}</Tag>;
+    }
 
-  if (!data) {
-    return <main className="loading">Loading the Vademecum index…</main>;
-  }
-
-  return (
-    <main>
-      <header className="intro">
-        <p className="eyebrow">Medical index</p>
-        <h1>Vademecum</h1>
-        <p>Browse {data.total.toLocaleString()} {modes[mode].label.toLocaleLowerCase()}.</p>
-      </header>
-
-      <div className="mode-switch" aria-label="Choose data type">
-        {Object.entries(modes).map(([key, item]) => (
-          <button
-            aria-pressed={mode === key}
-            className={mode === key ? "active" : ""}
-            key={key}
-            onClick={() => {
-              setMode(key);
-              setQuery("");
-              setActiveLetter("A");
-            }}
-          >
-            {item.label}
-          </button>
-        ))}
-      </div>
-
-      <section className="controls" aria-label="Search and filter">
-        <label className="search">
-          <span className="sr-only">Search entries</span>
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder={`Search ${modes[mode].searchLabel}…`}
-          />
-        </label>
-        <div className="letters" aria-label="Filter by first letter">
-          {alphabet.map((letter) => {
-            const count = data.items.filter((item) => item.letter === letter).length;
-            return (
-              <button
-                className={!query && activeLetter === letter ? "active" : ""}
-                disabled={!count}
-                key={letter}
-                onClick={() => {
-                  setQuery("");
-                  setActiveLetter(letter);
-                }}
-                title={`${letter}: ${count} entries`}
-              >
-                {letter}
-              </button>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="entries" aria-label="Entries">
-        <div className="result-count">
-          {entries.length} {entries.length === 1 ? "entry" : "entries"}
-        </div>
-        <div className="entry-list">
-          {entries.map((entry, index) => mode === "medicines" ? (
-            entry.url ? (
-              <a className="entry" href={entry.url} key={`${entry.name}-${entry.url}-${index}`} target="_blank" rel="noreferrer">
-                {entry.name}<span aria-hidden="true">↗</span>
-              </a>
-            ) : (
-              <div className="entry unavailable" key={`${entry.name}-${index}`}>{entry.name}</div>
-            )
-          ) : (
-            <details className="indication" key={`${entry.name}-${index}`}>
-              <summary>
-                <span>{entry.name}</span>
-                <small>{entry.medicines?.length ? `${entry.medicines.length} Arzneimittel` : "No links"}</small>
-              </summary>
-              {entry.medicines?.length ? (
-                <ul>
-                  {entry.medicines.map((medicine) => (
-                    <li key={`${medicine.label}-${medicine.url}`}>
-                      <a href={medicine.url} target="_blank" rel="noreferrer">{medicine.label}</a>
-                    </li>
-                  ))}
-                </ul>
-              ) : <p className="muted">No linked Arzneimittel returned.</p>}
-            </details>
-          ))}
-          {!entries.length && <p className="muted">No matching entries.</p>}
-        </div>
-      </section>
-
-      <footer>Dataset collected {new Date(data.updated).toLocaleDateString()}.</footer>
-    </main>
-  );
+    return <main className={selection ? 'workspace reading' : 'workspace'}>
+        <aside className="index">
+            <div className="index-controls">
+                {selection && <header><button onClick={() => {
+                    setSelection(null);
+                    setDoc(null);
+                    setError('');
+                }}>← Übersicht</button></header>}
+                <div className="header-row">
+                <div className="mode-switch">{Object.entries(modes)
+                                                    .map(([key, value]) => <button key={key} aria-pressed={mode === key}
+                                                                                   className={mode === key ? 'active' : ''}
+                                                                                   onClick={() => {
+                                                                                       setMode(key);
+                                                                                       setQuery('');
+                                                                                       setLetter('A');
+                                                                                   }}>{value.label}</button>)}</div>
+                <input className="search" aria-label="Suchen" placeholder={`${modes[mode].label} suchen…`} value={query}
+                       onChange={e => setQuery(e.target.value)}/>
+                </div>
+            <div className="letters">{'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+                                                                  .map(value => <button key={value}
+                                                                                        className={!query && value === letter ? 'active' : ''}
+                                                                                        disabled={!data?.items.some(item => item.letter === value)}
+                                                                                        onClick={() => {
+                                                                                            setLetter(value);
+                                                                                            setQuery('');
+                                                                                        }}>{value}</button>)}</div>
+            </div>
+            <p className="result-count">{data ? `${entries.length} Einträge` : 'Index wird geladen…'}</p>
+            <div className="entry-list">{entries.map(entry => mode === 'medicines' ?
+                <button className={`entry ${selection?.name === entry.name ? 'selected' : ''}`} key={entry.name}
+                        disabled={!entry.url} onClick={() => open(entry.url, entry.name)}>{entry.name}<span>→</span>
+                </button> : <details key={entry.name}>
+                    <summary>{entry.name}<small>{entry.medicines?.length ?? 0}</small></summary>
+                    <div className="related">{entry.medicines?.map(item => <button className="entry"
+                                                                                   key={item.url + item.label}
+                                                                                   onClick={() => open(item.url, item.label)}>{item.label}<span>→</span>
+                    </button>) ?? <p>Keine verknüpften Dokumente.</p>}</div>
+                </details>)}</div>
+            {error && !selection && <p role="alert">{error}</p>}
+        </aside>
+        {selection && <article className="reader" aria-live="polite">
+            <div className="document-content">{error ? <p role="alert">{error}</p> : doc ? <><p
+                    className="eyebrow">{selection.name}</p>
+                    <h1>{doc.title}</h1>{doc.blocks.map((node, i) => render(node, i))}</> :
+                <p>Dokument wird geladen…</p>}</div>
+        </article>}</main>;
 }

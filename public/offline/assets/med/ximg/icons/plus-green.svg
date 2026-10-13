@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <g id="b" data-name="»Plus«-zum-öffnen-eines-Reiters-45px">
+    <rect id="c" data-name="Rectangle" width="45" height="45" style="fill: none;"/>
+    <g id="d" data-name="Group">
+      <line id="e" data-name="Line" x1="16" y1="22.5" x2="29" y2="22.5" style="fill: none; stroke: #038979; stroke-linecap: round; stroke-width: 1.5px;"/>
+      <line id="f" data-name="Line-Copy" x1="22.5" y1="16" x2="22.5" y2="29" style="fill: none; stroke: #038979; stroke-linecap: round; stroke-width: 1.5px;"/>
+    </g>
+  </g>
+</svg>

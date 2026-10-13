@@ -2,11 +2,14 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const source = JSON.parse(await readFile(new URL("../vademecum-a-z.json", import.meta.url)));
 const indicationSource = JSON.parse(await readFile(new URL("../vademecum-indikationen-a-z.json", import.meta.url)));
+const documents = JSON.parse(await readFile(new URL('../public/documents/index.json', import.meta.url)));
+const documentByTitle = new Map(documents.map(document => [document.title.toLocaleLowerCase(), document.id]));
 
 const candidates = Object.entries(source.byLetter)
   .flatMap(([letter, group]) =>
     group.results.map((entry) => {
-      const url = entry.detailsUrl ?? entry.result?.url ?? entry.references?.[0]?.url ?? null;
+      const matchingDocument = documentByTitle.get(entry.title.toLocaleLowerCase());
+      const url = matchingDocument ? `https://www.vademecum.org/med/de05/${matchingDocument}` : entry.detailsUrl ?? entry.result?.url ?? entry.references?.[0]?.url ?? null;
       return {
         name: entry.title,
         letter: letter.toUpperCase(),

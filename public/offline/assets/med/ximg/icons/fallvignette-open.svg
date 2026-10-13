@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
+  <g id="b">
+    <rect id="c" width="45" height="45" style="fill: none;"/>
+    <g id="d">
+      <polyline id="e" points="16 22.5 25.59 22.5 29 22.5" style="fill: none; stroke: #e84b15; stroke-linecap: round; stroke-width: 1.5px;"/>
+      <polyline id="f" points="22.5 16 22.5 22.5 22.5 29" style="fill: none; stroke: #e84b15; stroke-linecap: round; stroke-width: 1.5px;"/>
+    </g>
+  </g>
+</svg>

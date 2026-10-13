@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 17">
+  <g id="b" data-name="Icon-gesperrt-(nicht-angemeldet)">
+    <g id="c" data-name="ic lock 24px">
+      <path id="d" data-name="Shape" d="M11.38,5.67h-.81v-1.62C10.56,1.81,8.74,0,6.5,0S2.44,1.81,2.44,4.05v1.62h-.81c-.89,0-1.62,.73-1.62,1.62V15.38c0,.89,.73,1.62,1.62,1.62H11.38c.89,0,1.62-.73,1.62-1.62V7.29c0-.89-.73-1.62-1.62-1.62Zm-4.88,7.29c-.89,0-1.62-.73-1.62-1.62s.73-1.62,1.62-1.62,1.62,.73,1.62,1.62-.73,1.62-1.62,1.62Zm2.52-7.29H3.98v-1.62c0-1.38,1.13-2.51,2.52-2.51s2.52,1.13,2.52,2.51v1.62Z" style="fill: #949494;"/>
+    </g>
+    <rect id="e" data-name="Rectangle" x="-15" y="-14" width="45" height="45" style="fill: none;"/>
+  </g>
+</svg>

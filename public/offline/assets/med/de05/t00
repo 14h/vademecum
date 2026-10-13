@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/med/ximg/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/med/manifest.json">
+    <title>Grundlagen Anthroposophische Arzneitherapie | Inhalt</title>
+    <link rel="stylesheet" href="/med/css/bootstrap/bootstrap-icons/bootstrap-icons.css"/>
+    <link href="/med/css/main.min.css" rel="stylesheet" />
+    <script src="/med/js/bootstrap.bundle.min.js"></script>
+    <script src="/med/js/popper.min.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: none;
+          }
+        }
+        @media (min-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: flex;
+              flex-direction: row;
+          }
+      }
+    </style>
+                <meta name="description" content="Vademecum Anthroposophische Arzneimittel | Fünfte Auflage | Grundlagen der Anthroposophischen Arzneitherapie | Inhaltsverzeichnis">
+                    <script type="application/ld+json">
+          { "@context": "https://schema.org", "@type": "Article", "headline": "Grundlagen Anthroposophische Arzneitherapie | Inhalt", "datePublished": "2025-01-21", "publisher": "Gesellschaft Anthroposophischer Ärzte in Deutschland (GAÄD) und Medizinische Sektion der Freien Hochschule für Geisteswissenschaft, Dornach, Schweiz" }
+        </script>
+        <style>
+        ul.list-group ul {
+            padding-left: 20px; /* Abstand für jede Ebene erhöhen */
+        }
+    </style>
+  </head>
+  <body class="home">
+    <header class="page-header">
+  <nav class="navbar navbar-light">
+    <div class="container g-0">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+          <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App Wort-Bildmarke (Positiv)</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path
+                  d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335"
+                  id="Fill-1"
+                  fill="#FFFFFF"
+                ></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="metanavigation">
+                  <div class="header-editon">
+            <select class="form-select rounded-pill blue-schema" aria-label="Ausgabe wählen" data-select-edition>
+              <option value="">Edition</option>
+                              <option value="de05" selected>DE-05</option>
+                          </select>
+          </div>
+                <div class="icon-menubar">
+                    <div class="icon-menubtn">
+                          <a href="/med/favorites.html" class="icon">
+                <span class="fav inverted">Favoriten</span>
+              </a>
+                      </div>
+                                    <div class="icon-menubtn">
+                <a href="https://www.vademecum.org/med/de05/t00" class="icon">
+                  <span class="grundlagen inverted">Grundlagen</span>
+                </a>
+              </div>
+                        <div class="icon-menubtn dropdown dropdown-header">
+              <button class="icon context-icon" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user inverted active">Mein Konto</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/logout">Logout</a></li>
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+              </ul>
+            </div>
+                                <div class="icon-menubtn">
+              <a href="https://www.vademecum.org/med/de05/search?reset=1" class="icon" id="volltextsuche">
+                <span class="search inverted">Suche</span>
+              </a>
+            </div>
+          
+        </div>
+        <button class="navbar-toggler mobile" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <nav class="navbar navbar-expand-md menu">
+          <div class="collapse navbar-collapse" id="mainMenu">
+
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/account">Mein Konto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/logout">Abmelden</a>
+                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/help">Hilfe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/imprint">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/privacy">Datenschutz</a>
+                </li>
+              </ul>
+                                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 langtext-menu desktop-nav" id="langtext-menu">
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikation A-Z</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/v00">Viscum album (onkologisch)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+                </li>
+              </ul>
+                      </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+    <div class="offcanvas offcanvas-top volltextsuche" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Volltextsuche</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="bg-hightlight search-groupe">
+            <input type="text" class="form-control gfg rounded-pill" id="formGroupExampleInput" placeholder="Volltextsuche"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+         <div class="container content-container grundlagen g-0">
+                 <div class="heading-item title sticky">
+            <h1>Grundlagen Anthroposophischer Arzneitherapie</h1>
+
+        </div>
+        <section class="langtext-detail verzeichniss">
+            <div class="row g-0">
+                                    <h2 class="section-title">Inhalt</h2>
+                                <div class="content-body">
+                    
+	<div data-column="doi-copy-text" style="display: none;">Grundlagen Anthroposophischer Arzneitherapie: Inhaltsverzeichnis. In: Vademecum Anthroposophische Arzneimittel. 5. Aufl. München: Verlag der Gesellschaft Anthroposophischer Ärzte in Deutschland; 2024. DOI: https://doi.org/10.14271/de05-t00.</div>
+	
+	<div data-module="table-of-contents"><div class="accordion" id="accordion-verzeichniss"><div class="accordion-item">
+                            <h4 class="accordion-header sticky">
+                                <a href="/med/de05/t01" class="accordion-button link-item"><span class="chapter">1.</span> Zur Problemstellung: Der Erkenntnisweg vom Menschen zur heilenden Natur</a>
+                            </h4>
+                        </div><div class="accordion-item">
+                            <h4 class="accordion-header sticky">
+                                <a href="/med/de05/t02" class="accordion-button link-item"><span class="chapter">2.</span> Leitfragen für die Arzneifindung am Patienten</a>
+                            </h4>
+                        </div><div class="accordion-item">
+                                    <h4 class="accordion-header sticky" id="heading-accordion-item-ec32eb3b580fa5e1615203abc3e47e17">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-item-ec32eb3b580fa5e1615203abc3e47e17" aria-expanded="false" aria-controls="collapse-accordion-item-ec32eb3b580fa5e1615203abc3e47e17">
+                                            <span class="chapter">3.</span> Typologie menschlichen Erkrankens
+                                        </button>
+                                    </h4>
+                                    <div id="collapse-accordion-item-ec32eb3b580fa5e1615203abc3e47e17" class="accordion-collapse collapse" aria-labelledby="heading-accordion-item-ec32eb3b580fa5e1615203abc3e47e17" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ul class="list-group"><li><a href="/med/de05/t03#t03-01"><span class="chapter">3.1.</span> Die vier Wesensglieder des Menschen</a><ul class="list-group"><li><a href="/med/de05/t03#t03-0101"><span class="chapter">3.1.1.</span> Der physische Leib</a></li><li><a href="/med/de05/t03#t03-0102"><span class="chapter">3.1.2.</span> Die Bildekräfteorganisation (Lebensleib, Ätherleib)</a></li><li><a href="/med/de05/t03#t03-0103"><span class="chapter">3.1.3.</span> Die Empfindungsorganisation (Seelenleib, Astralleib)</a></li><li><a href="/med/de05/t03#t03-0104"><span class="chapter">3.1.4.</span> Das Ich als Instanz des selbstbewussten Geistes</a></li></ul></li><li><a href="/med/de05/t03#t03-02"><span class="chapter">3.2.</span> Menschliche Gesundheit: Das Zusammenspiel der Wesensglieder</a></li><li><a href="/med/de05/t03#t03-03"><span class="chapter">3.3.</span> Fremdkörperbildung im Leiblichen – Fremdseelisches im Bewusstsein</a></li><li><a href="/med/de05/t03#t03-04"><span class="chapter">3.4.</span> Rhythmische Prozesse im sich entwickelnden Wechselverhältnis der Wesensglieder: Situation und Konstitution, akutes und chronisches Erkranken</a></li></ul>
+                                        </div>
+                                    </div>
+                                </div><div class="accordion-item">
+                                    <h4 class="accordion-header sticky" id="heading-accordion-item-78efc8652d3700d668e9a27862b5f697">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-item-78efc8652d3700d668e9a27862b5f697" aria-expanded="false" aria-controls="collapse-accordion-item-78efc8652d3700d668e9a27862b5f697">
+                                            <span class="chapter">4.</span> Allgemeine Typologie der heilenden Prozesse
+                                        </button>
+                                    </h4>
+                                    <div id="collapse-accordion-item-78efc8652d3700d668e9a27862b5f697" class="accordion-collapse collapse" aria-labelledby="heading-accordion-item-78efc8652d3700d668e9a27862b5f697" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ul class="list-group"><li><a href="/med/de05/t04#t04-01"><span class="chapter">4.1.</span> Die Beziehung der Naturreiche zu den menschlichen Wesensgliedern</a></li><li><a href="/med/de05/t04#t04-02"><span class="chapter">4.2.</span> Substanz und Prozess – Gewordenes und Werdendes</a></li><li><a href="/med/de05/t04#t04-03"><span class="chapter">4.3.</span> Wirksamkeit einzelner ausdifferenzierter Substanzen im Nerven-Sinnes-System – Prozessuale Substanzverwandlung im Stoffwechsel-Gliedmaßen-System</a></li><li><a href="/med/de05/t04#t04-04"><span class="chapter">4.4.</span> Heilen durch gewordene Substanzen – Heilen durch die Dynamik pharmazeutischer Prozesse</a></li><li><a href="/med/de05/t04#t04-05"><span class="chapter">4.5.</span> Giftsubstanzen als Vertreter seelisch-geistiger Vorgänge – zum typischen Heilvorgang für den bewusstseinsbetonten Typ des Krankseins</a></li><li><a href="/med/de05/t04#t04-06"><span class="chapter">4.6.</span> Heilen durch Arzneimittel – Heilen durch das Wort: Anthroposophische Arzneimittel als verleiblichte Formen des Verstehens</a></li><li><a href="/med/de05/t04#t04-07"><span class="chapter">4.7.</span> Vorbilder geistig-gestaltender Willensdynamik – Übungstätigkeit im Heilprozess für den naturbetonten Typ menschlichen Erkrankens</a></li></ul>
+                                        </div>
+                                    </div>
+                                </div><div class="accordion-item">
+                                    <h4 class="accordion-header sticky" id="heading-accordion-item-5428f47fac77ab8fca3a8924ce8c9154">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-item-5428f47fac77ab8fca3a8924ce8c9154" aria-expanded="false" aria-controls="collapse-accordion-item-5428f47fac77ab8fca3a8924ce8c9154">
+                                            <span class="chapter">5.</span> Grundlegende Wirkprinzipien der Arzneimitteltherapie
+                                        </button>
+                                    </h4>
+                                    <div id="collapse-accordion-item-5428f47fac77ab8fca3a8924ce8c9154" class="accordion-collapse collapse" aria-labelledby="heading-accordion-item-5428f47fac77ab8fca3a8924ce8c9154" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ul class="list-group"><li><a href="/med/de05/t05#t05-01"><span class="chapter">5.1.</span> Konventionelle Pharmakotherapie und menschlicher Organismus</a></li><li><a href="/med/de05/t05#t05-02"><span class="chapter">5.2.</span> Gesundheit und Krankheit des menschlichen Organismus</a></li><li><a href="/med/de05/t05#t05-03"><span class="chapter">5.3.</span> Wirkprinzipien und funktionelle Grunddynamiken: Von der Polarität zur Dreigliederung</a></li><li><a href="/med/de05/t05#t05-04"><span class="chapter">5.4.</span> Die menschliche Organisation und deren Wirkebenen: Die Viergliederung</a></li><li><a href="/med/de05/t05#t05-05"><span class="chapter">5.5.</span> Pharmakologische Wirkprinzipien auf den unterschiedlichen Wesensgliederebenen</a><ul class="list-group"><li><a href="/med/de05/t05#t05-0501"><span class="chapter">5.5.1.</span> Hemmung, Verstärkung, Modulation auf der Ebene des physischen Organismus</a></li><li><a href="/med/de05/t05#t05-0502"><span class="chapter">5.5.2.</span> Wirkprinzipien auf der Ebene der lebendigen Bildekräfteorganisation (Ätherleib)</a></li><li><a href="/med/de05/t05#t05-0503"><span class="chapter">5.5.3.</span> Wirkprinzipien auf der Ebene der Empfindungsorganisation</a></li><li><a href="/med/de05/t05#t05-0504"><span class="chapter">5.5.4.</span> Wirkprinzipien auf der Ebene der Ich-Organisation</a></li><li><a href="/med/de05/t05#t05-0505"><span class="chapter">5.5.5.</span> Arzneimittel, die mehrere Wirkprinzipien ansprechen</a></li></ul></li></ul>
+                                        </div>
+                                    </div>
+                                </div><div class="accordion-item">
+                                    <h4 class="accordion-header sticky" id="heading-accordion-item-456cb1705e54d4cef1d80468b84864b4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-item-456cb1705e54d4cef1d80468b84864b4" aria-expanded="false" aria-controls="collapse-accordion-item-456cb1705e54d4cef1d80468b84864b4">
+                                            <span class="chapter">6.</span> Der Organbezug des Heilmittels
+                                        </button>
+                                    </h4>
+                                    <div id="collapse-accordion-item-456cb1705e54d4cef1d80468b84864b4" class="accordion-collapse collapse" aria-labelledby="heading-accordion-item-456cb1705e54d4cef1d80468b84864b4" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ul class="list-group"><li><a href="/med/de05/t06#t06-01"><span class="chapter">6.1.</span> Die drei Funktionssysteme des Menschen</a></li><li><a href="/med/de05/t06#t06-02"><span class="chapter">6.2.</span> Die integrative Kraft rhythmischer Prozesse und die Entstehung von Krankheit und Gesundheit</a></li><li><a href="/med/de05/t06#t06-03"><span class="chapter">6.3.</span> Sal-, Merkur-, Sulfurprozesse</a><ul class="list-group"><li><a href="/med/de05/t06#t06-0301"><span class="chapter">6.3.1.</span> Die Pflanze</a></li><li><a href="/med/de05/t06#t06-0302"><span class="chapter">6.3.2.</span> Die Klimazonen der Erde und die Jahreszeiten: Zur Bedeutung des Erntezeitpunktes von Heilpflanzen (Leitfrage 7a)</a></li><li><a href="/med/de05/t06#t06-0303"><span class="chapter">6.3.3.</span> Der Mensch</a></li></ul></li><li><a href="/med/de05/t06#t06-04"><span class="chapter">6.4.</span> Die Organe der Blütenpflanze und die Lebensprozesse des Menschen: Zur Indikationsstellung für die Pflanzenteile Wurzel, Blatt, Blüte, Frucht und Same</a></li><li><a href="/med/de05/t06#t06-05"><span class="chapter">6.5.</span> Übergänge der physiologischen Prozesse in Krankheitstendenzen</a></li><li><a href="/med/de05/t06#t06-06"><span class="chapter">6.6.</span> Reduktive und oxidative Prozesse – sulfidische und oxidierte Minerale</a></li><li><a href="/med/de05/t06#t06-07"><span class="chapter">6.7.</span> Zur Bedeutung der geologischen Bildeprozesse eines Arzneiminerals am Beispiel der Kupferverbindungen</a></li><li><a href="/med/de05/t06#t06-08"><span class="chapter">6.8.</span> Kohlensaure, alkalische und kieselsaure Salze (zur Bedeutung der Metallverbindungen)</a></li></ul>
+                                        </div>
+                                    </div>
+                                </div><div class="accordion-item">
+                                    <h4 class="accordion-header sticky" id="heading-accordion-item-bcc26175ca07201b09d9b9f5ab154242">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-item-bcc26175ca07201b09d9b9f5ab154242" aria-expanded="false" aria-controls="collapse-accordion-item-bcc26175ca07201b09d9b9f5ab154242">
+                                            <span class="chapter">7.</span> Zur Anwendung der Arzneimittel und Konzeption der Therapie
+                                        </button>
+                                    </h4>
+                                    <div id="collapse-accordion-item-bcc26175ca07201b09d9b9f5ab154242" class="accordion-collapse collapse" aria-labelledby="heading-accordion-item-bcc26175ca07201b09d9b9f5ab154242" data-bs-parent="#accordion-1">
+                                        <div class="accordion-body">
+                                            <ul class="list-group"><li><a href="/med/de05/t07#t07-01"><span class="chapter">7.1.</span> Applikationsformen der Arznei</a></li><li><a href="/med/de05/t07#t07-02"><span class="chapter">7.2.</span> Potenzwahl und Dosierung</a></li><li><a href="/med/de05/t07#t07-03"><span class="chapter">7.3.</span> Das salutogenetische Gesamtkonzept: ergänzende Therapiemaßnahmen</a></li><li><a href="/med/de05/t07#t07-04"><span class="chapter">7.4.</span> Wirksamkeitsbeurteilung und Prognostik</a></li></ul>
+                                        </div>
+                                    </div>
+                                </div></div></div>
+
+                </div>
+            </div>
+        </section>
+        <button type="button" class="btn-lg" id="btn-back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
+    <footer class="footer mobile">
+      <div class="body-footer feedback">
+              <a href="#" class="feedback-item btn-back">
+          <span class="back" >Zurück</span>
+        </a>
+                    <a href="https://www.vademecum.org/med/de05/search?reset=1" class="feedback-item btn-search">
+          <span class="search" >Suche</span>
+        </a>
+      
+      <button type="button" class="feedback-item context-icon" data-bs-toggle="modal" data-bs-target="#myAccountModal">
+        <span class="user active" >Account</span>
+      </button>
+                            <a href="mailto:?subject=Grundlagen Anthroposophischer Arzneitherapie&amp;body=https://www.vademecum.org/med/de05/t00" class="feedback-item btn-share desktop">
+                <span class="share" >Share</span>
+            </a>
+                    <a href="#" class="feedback-item btn-doi desktop" data-doi-click>
+            <span class="doi" >DOI</span>
+        </a>
+        <a href="/med/favorites.html" class="feedback-item btn-fav" data-add-favorite>
+            <span class="fav " >Favoriten</span>
+        </a>
+
+        <a href="" class="feedback-item btn-basics" data-bs-toggle="modal" data-bs-target="#grundlagenModal">
+            <span class="grundlagen">Grundlagen</span>
+        </a>
+          </div>
+  </footer>
+<div class="container bg-light-grey footer-menu desktop">
+  <div class="row">
+    <div class="col">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+            <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335" id="Fill-1" fill="#FFFFFF"></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <ul>
+        <li><a href="/med/favorites.html">Favoriten</a></li>
+        <li><a href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+                  <li><a href="https://www.vademecum.org/med/de05/search?reset=1">Suche</a></li>
+              </ul>
+
+        <ul >
+            <li >
+              <a href="https://www.vademecum.org/med/imprint">Impressum</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/privacy">Datenschutz</a>
+            </li>
+            <li >
+                <a href="https://www.vademecum.org/med/help">Hilfe</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+              </li>
+
+        </ul>
+    </div>
+    <div class="col">
+              <ul>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/p13">Inhaltsverzeichnis</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=med&amp;reset=1">Arzneimittel</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/search?at=idc&amp;reset=1">Indikationen</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/v00">Viscum album onkologisch</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/m00">Grundlagen Misteltherapie</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/med/de05/t00">Grundlagen Arzneitherapie</a>
+            </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p20">Hinweise an die Leserinnen und Leser</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p19">Abkürzungen</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/de05/p18">Liste der Autoren</a>
+              </li>
+        </ul>
+          </div>
+
+  </div>
+</div>
+<div class="modal fade" id="myAccountModal" aria-labelledby="myAccountModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body context-menu-user">
+        <a href="https://www.vademecum.org/med/logout" class="btn btn-secondary rounded-pill">Logout</a>
+        <a href="https://www.vademecum.org/med/account" class="btn btn-primary rounded-pill">Konto</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="grundlagenModal" aria-labelledby="grundlagenModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body context-menu-user">
+            <a href="https://www.vademecum.org/med/de05/m00" class="btn btn-primary rounded-pill">Grundlagen Misteltherapie</a>
+            <a href="https://www.vademecum.org/med/de05/t00" class="btn btn-primary rounded-pill">Grundlagen Arzneitherapie</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/med/js/jquery-1.11.0.min.js"></script>
+    <script src="/med/js/app.js"></script>
+    <script src="/med/js/validation.js"></script>
+    <script src="/med/js/custom.js"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/med/service-worker.js').then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          if (navigator.serviceWorker.controller) {
+            console.log('Service Worker ready');
+            setupFavoriteButton();
+          } else {
+            console.log('Service Worker not ready');
+            navigator.serviceWorker.oncontrollerchange = function() {
+              console.log('Service Worker now ready');
+              setupFavoriteButton();
+            };
+          }
+        }).catch(function(error) {
+          console.error('Service Worker registration failed:', error);
+        });
+      }
+
+      function setupFavoriteButton() {
+
+        $('body').on('click','[data-feedback-area-fav]', function(e) {
+          e.preventDefault();
+            const url = window.location.href;
+            const title = document.title;
+
+            navigator.serviceWorker.controller.postMessage({
+                type: 'ADD_TO_FAVORITES',
+                url,
+                title
+            });
+            alert('Seite wurde zu den Favoriten hinzugefügt');
+        });
+      }
+
+    </script>
+        <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stats.gaed.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '20']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+  </body>
+</html>

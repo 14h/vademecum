@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/med/ximg/icons/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/med/manifest.json">
+    <title>Vademecum</title>
+    <link rel="stylesheet" href="/med/css/bootstrap/bootstrap-icons/bootstrap-icons.css"/>
+    <link href="/med/css/main.min.css" rel="stylesheet" />
+    <script src="/med/js/bootstrap.bundle.min.js"></script>
+    <script src="/med/js/popper.min.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: none;
+          }
+        }
+        @media (min-width: 768px) {
+            .navbar-expand-md .navbar-nav.desktop-nav {
+              display: flex;
+              flex-direction: row;
+          }
+      }
+    </style>
+    
+  </head>
+  <body class="home">
+    <header class="page-header">
+  <nav class="navbar navbar-light">
+    <div class="container g-0">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+          <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App Wort-Bildmarke (Positiv)</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path
+                  d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335"
+                  id="Fill-1"
+                  fill="#FFFFFF"
+                ></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="metanavigation">
+                <div class="icon-menubar">
+                    <div class="icon-menubtn">
+                          <a href="/med/favorites.html" class="icon">
+                <span class="fav inverted">Favoriten</span>
+              </a>
+                      </div>
+                                  <div class="icon-menubtn dropdown dropdown-header">
+              <button class="icon context-icon" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user inverted active">Mein Konto</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/logout">Logout</a></li>
+                <li><a class="dropdown-item" href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+              </ul>
+            </div>
+                    
+        </div>
+        <button class="navbar-toggler mobile" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <nav class="navbar navbar-expand-md menu">
+          <div class="collapse navbar-collapse" id="mainMenu">
+
+            
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mobile" id="vademecumItems">
+                                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/account">Mein Konto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.vademecum.org/med/logout">Abmelden</a>
+                  </li>
+                                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/help">Hilfe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://shop.vademecum.org/">Vademecum-Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/imprint">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.vademecum.org/privacy">Datenschutz</a>
+                </li>
+              </ul>
+                                  </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+    <div class="offcanvas offcanvas-top volltextsuche" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasTopLabel">Volltextsuche</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="bg-hightlight search-groupe">
+            <input type="text" class="form-control gfg rounded-pill" id="formGroupExampleInput" placeholder="Volltextsuche"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+      <!-- home options -->
+  <section class="account-status banner">
+    <div class="welcome bg-highlight center">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h1 class="center home-title">Willkommen in der Vademecum Web-App</h1>
+                      <p class="center">
+              Sie sind angemeldet als <b>shukri.jarmoukli@gmail.com</b>. Sie haben ein aktives Abo und damit Zugriff auf alle Inhalte der Vademecum Web-App.<br/>
+              Wählen Sie eine Ausgabe & Sprache.
+            </p>
+                  </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        
+        
+        <div class="col-md-5 col-lg-4 col-sm-12 p-2">
+          <a href="https://www.vademecum.org/med/de05/search?reset=1" class="btn btn-primary btn-lg rounded-pill">DE-05 Vademecum 5. Auflage</a>
+                  </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- end home options -->
+   <section class="banner">
+      <div class="image-banner">
+        Calandula - Eine schöne Blume
+      </div>
+   </section>
+
+  <div class="container content-container">
+    <!-- home newsfeed -->
+<section class="newsfeed">
+
+        <div class="newsitem">
+            <p class="event"></p>
+            <h2>Häufige Fragen und Anleitungen für die Web-App</h2>
+            <p class="date">Registrierung, Anmeldung, Freischalt-Code einlösen, Web-App installieren, Web-App schnell aufrufen</p>
+            <a href="https://www.vademecum.org/med/help">
+                <button class="btn btn-sm btn-info btn-news">
+                    <i class="bi bi-arrow-right-short"></i> Vademecum Help
+                </button>
+            </a>
+        </div>
+        <div class="newsitem">
+        <p class="event">Herbsttagung 2026</p>
+        <h2>Die Wirbelsäule - Therapiemöglichkeiten akuter und chronischer Rückenschmerzen</h2>
+        <p class="date">20.-22.11.2026 | Kassel</p>
+        <a href="https://www.gaed.de/veranstaltungen_HT_2026">
+            <button class="btn btn-sm btn-info btn-news">
+                <i class="bi bi-arrow-right-short"></i> Zusätzliche Informationen
+            </button>
+        </a>
+        </div>
+       <div class="newsitem">
+            <p class="event"></p>
+            <h2>Stellungnahme zur Erstattungsfähigkeit anthroposophischer Arzneimittel und Leistungen in der GKV</h2>
+            <p class="date"></p>
+            <a href="https://www.gaed.de/node/47426">
+                <button class="btn btn-sm btn-info btn-news">
+                    <i class="bi bi-arrow-right-short"></i>  Zur Stellungnahme
+                </button>
+            </a>
+        </div>
+</section>
+<!-- end newsfeed -->
+
+    <button type="button" class="btn-lg" id="btn-back-to-top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+  </div>
+
+
+
+    <footer class="footer mobile">
+      <div class="body-footer feedback">
+            
+      <button type="button" class="feedback-item context-icon" data-bs-toggle="modal" data-bs-target="#myAccountModal">
+        <span class="user active" >Account</span>
+      </button>
+          </div>
+  </footer>
+<div class="container bg-light-grey footer-menu desktop">
+  <div class="row">
+    <div class="col">
+      <div class="logo-container">
+        <a href="https://www.vademecum.org/med/">
+            <svg width="150px" height="45px" viewBox="0 0 150 45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <title>Vademecum Web-App</title>
+            <g id="Vademecum-Web-App-Wort-Bildmarke-(Positiv)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Vademecum-Web-App-Symbol" transform="translate(0, -0)">
+                <rect id="Rectangle" fill="#0081C8" x="0" y="0" width="45" height="45" rx="5"></rect>
+                <path d="M33.9431599,21.8491819 C33.3565429,11.8549098 27.6998784,7 27.6998784,7 L27.0408865,8.70671415 C37.9085389,17.1634059 31.8252438,35.2299745 25.5933898,35.2299745 C22.0736875,35.2299745 20.8052233,28.5760957 17.8569013,27.4113786 C15.5942355,26.5195821 15,29.8945708 15,29.8945708 L15.7618403,30.2789659 C15.7618403,30.2789659 16.7331868,28.2916434 17.9407037,28.7067901 C20.3366915,29.5255516 21.365176,34.7187291 24.7934575,36.5676694 C27.8179636,38.2013485 34.7392831,35.6028378 33.9355415,21.8684016 M28.9808037,22.5569335 C28.9808037,12.4106916 21.3982687,9.92439838 17.9352578,10.0017325 C15.5664354,10.0519997 13.493236,11.5290822 12.1763704,13.346435 C11.0898603,14.8389843 10.3258479,17.464479 10.103171,19.5331678 C9.33531932,26.6633775 13.1016316,34.6519963 13.2168094,35 L13.6621633,33.9598555 C7.62301014,19.4674338 11.2511092,12.4686923 18.5456998,12.1980227 C23.0453105,12.0317543 28.1438454,14.9047183 28.2897372,21.9073266 C28.3396476,24.2041512 27.1379598,26.2921735 24.7768159,26.3424407 C22.0317463,26.404308 19.2828374,21.8957265 19.2828374,21.8957265 L17.4937431,22.7000017 L17.3939224,23.7401462 C17.3939224,23.7401462 18.1886488,23.7672132 18.8182872,23.7981468 C19.3001141,23.8163203 19.7500751,24.0448428 20.0506891,24.4245535 C21.8129086,26.6208437 23.1988808,28.1520601 24.5502997,28.5000638 C26.6465347,29.0414029 29,26.3153737 29,22.5569335" id="Fill-1" fill="#FFFFFF"></path>
+              </g>
+              <text id="Vademecum-Web-App" transform="translate(105, 22.5) rotate(-360) translate(-105, -22.5)" font-family="SourceSans3-SemiBold" font-size="16" font-weight="600" line-spacing="18" letter-spacing="0.520635429" fill="#272726">
+                <tspan x="60" y="16">Vademecum</tspan>
+                <tspan x="60.032" y="34.336" font-family="SourceSans3-Regular" font-weight="normal">
+                  Web-App
+                </tspan>
+              </text>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <ul>
+        <li><a href="/med/favorites.html">Favoriten</a></li>
+        <li><a href="https://www.vademecum.org/med/account">Mein Konto</a></li>
+              </ul>
+
+        <ul >
+            <li >
+              <a href="https://www.vademecum.org/med/imprint">Impressum</a>
+            </li>
+            <li >
+              <a href="https://www.vademecum.org/privacy">Datenschutz</a>
+            </li>
+            <li >
+                <a href="https://www.vademecum.org/med/help">Hilfe</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/contacts">Adressen und Kontakte</a>
+              </li>
+            <li >
+                <a href="https://www.vademecum.org/med/links">Hilfreiche Links</a>
+              </li>
+              <li >
+                <a href="https://www.vademecum.org/med/terms-of-use">Nutzungsbedingungen</a>
+              </li>
+
+        </ul>
+    </div>
+    <div class="col">
+          </div>
+
+  </div>
+</div>
+<div class="modal fade" id="myAccountModal" aria-labelledby="myAccountModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body context-menu-user">
+        <a href="https://www.vademecum.org/med/logout" class="btn btn-secondary rounded-pill">Logout</a>
+        <a href="https://www.vademecum.org/med/account" class="btn btn-primary rounded-pill">Konto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="/med/js/jquery-1.11.0.min.js"></script>
+    <script src="/med/js/app.js"></script>
+    <script src="/med/js/validation.js"></script>
+    <script src="/med/js/custom.js"></script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/med/service-worker.js').then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          if (navigator.serviceWorker.controller) {
+            console.log('Service Worker ready');
+            setupFavoriteButton();
+          } else {
+            console.log('Service Worker not ready');
+            navigator.serviceWorker.oncontrollerchange = function() {
+              console.log('Service Worker now ready');
+              setupFavoriteButton();
+            };
+          }
+        }).catch(function(error) {
+          console.error('Service Worker registration failed:', error);
+        });
+      }
+
+      function setupFavoriteButton() {
+
+        $('body').on('click','[data-feedback-area-fav]', function(e) {
+          e.preventDefault();
+            const url = window.location.href;
+            const title = document.title;
+
+            navigator.serviceWorker.controller.postMessage({
+                type: 'ADD_TO_FAVORITES',
+                url,
+                title
+            });
+            alert('Seite wurde zu den Favoriten hinzugefügt');
+        });
+      }
+
+    </script>
+        <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//stats.gaed.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '20']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+  </body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Vademecum </title>
+            <link rel="stylesheet" href="/bundles/vademecum/css/vademecum.css">
+        <!-- Browserweiche für alle IE -->
+        <!--[if IE]>
+            <link rel="stylesheet" href="/bundles/vademecum/css/ie.css">
+        <![endif]-->
+        <link rel="icon" type="image/x-icon" href="/bundles/vademecum/img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <script type="text/javascript">
+        window.location = "https://www.gaed.de/datenschutz";
+    </script>
+</head>
+<body>
+<div id="vademecum">
+    <header class="container">
+        <div class="row" id="header">
+            <div id="header-logo">
+                <h1><a href="https://www.vademecum.org/">Vademecum</a></h1>
+                <p>
+                                            Therapeutic possibilities in <br />
+                        Anthroposophic Medicine
+                                    </p>
+            </div>
+
+            <ul class="meta-navigation">
+	                            <li>
+                    <a href="https://www.vademecum.org/contact">
+                                                    Contact
+                                            </a>
+                </li>
+                                <li>
+                    <a class="" href="https://www.vademecum.org/privacy?_locale=de">DE</a>
+                </li>
+                <li>
+                    <a class="active" href="https://www.vademecum.org/privacy?_locale=en">EN</a>
+                </li>
+                <li>
+                    <a class="" href="https://www.vademecum.org/privacy?_locale=es">ES</a>
+                </li>
+                <li>
+                    <a class="" href="https://www.vademecum.org/privacy?_locale=fr">FR</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+        <!-- teaser Block -->
+    <div id="teaser" class="gardien">
+        <div id="teaser-text-header" class="container lighter">
+                            <h2>Datenschutz</h2>
+                    </div>
+    </div>
+
+
+        <div class="box-container">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-12 ">
+
+                <h4 class="siteHeader">
+                                            Datenschutzerklärung
+                                    </h4>
+                <p>
+                    Stand 20. Juni 2019
+                </p>
+                <br />
+                <h4 class="siteHeader">
+                                            1 Information über die Erhebung personenbezogener Daten
+                                    </h4>
+                <h5 class="siteHeader">
+                                            1.1 Was sind personenbezogene Daten
+                                    </h5>
+                <p>
+                                            Im Folgenden informieren wir Sie über die Verarbeitung personenbezogener Daten durch die
+                        Gesellschaft Anthroposophischer Ärzte in Deutschland (GAÄD). Personenbezogene Daten sind
+                        laut Datenschutz-Grundverordnung (DSGVO) hierbei alle Daten, mit denen Sie persönlich
+                        identifiziert werden können. Neben dem Namen zählen zu den persönlichen Daten die Postadresse,
+                        Telefonnummern, E-Mail-Adressen, Geburtsdatum, Bankverbindungen und die von Ihnen beim Besuch
+                        von Websites verwendete IP-Adresse sowie je nach Kontext weitere Daten.
+                    
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            1.2 Wann entstehen personenbezogene Daten
+                                    </h5>
+                <p>
+                                            Solche Daten erhält die GAÄD zum Beispiel durch den Besuch von deren Websites, die Bestellung von
+                        Publikationen und Abonnements, die Buchung von Veranstaltungen, die Anmeldung zu Newslettern
+                        und weitere Vorgänge, sei es über eine Website der GAÄD, per E-Mail, per Fax, postalisch,
+                        telefonisch oder persönlich z.B. bei der Teilnahme an einer Fortbildungsveranstaltung.
+                    
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            1.3 Ziel dieser Datenschutzerklärung
+                                    </h5>
+                <p>
+                                            Mit der Datenschutzerklärung möchten wir Sie in die Lage versetzen, mit Bezug auf die Speicherung
+                        und Verarbeitung personenbezogener Daten selbst entscheiden zu können, in welcher Form Sie in Beziehung zur
+                        GAÄD treten wollen.
+                                    </p>
+                <br />
+                <h5 class="siteHeader">
+                                            1.4 Fragen zur Datenschutzerklärung
+                                    </h5>
+                <p>
+                                            Fragen zur Datenschutzerklärung richten Sie bitte per E-Mail an <a href="mailto:datenschutz@gaed.de">datenschutz@gaed.de</a>, ebenso Anträge zur
+                        Auskunft über Ihre gespeicherten Daten oder Anträge auf Löschung derselben. Weitere Informationen
+                        finden Sie in der Datenschutzerklärung der GAÄD auf <a target="_blank" href="www.gaed.de/datenschutz">www.gaed.de/datenschutz</a>, Abschnitt 10 bis 12.
+                                    </p>
+                <br />
+                <h5 class="siteHeader">
+                                            1.5 Verantwortlicher für die Datenverarbeitung
+                                    </h5>
+                <p>
+                                            Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist die <br />
+                        Gesellschaft Anthroposophischer Ärzte in Deutschland e.V. (GAÄD), <br />
+                        Herzog-Heinrich-Straße 18, <br />
+                        80336 München, <br />
+                        Deutschland, <br />
+                        Tel. (089) 716 77 76-0, <br />
+                        Fax (089) 716 77 76-49, <br />
+                        E-Mail <a href="mailto:info@gaed.de">info@gaed.de</a> (im Folgenden „GAÄD“ oder „wir“ und „uns“ genannt). <br />
+                        Die Gesellschaft wird durch den Vorstand jeweils zu zweit vertreten. Die Mitglieder des Vorstandes sind im
+                        <a href="https://www.vademecum.org/imprint">Impressum</a> verzeichnet.
+                                    </p>
+                <br />
+                <h4 class="siteHeader">
+                                            2 Datenschutzerklärung der GAÄD
+                                    </h4>
+                <p>
+                    Die Datenschutzerklärung der GAÄD gilt uneingeschränkt auch für diese Website; siehe <a target="_blank" href="www.gaed.de/datenschutz">www.gaed.de/datenschutz</a>;
+                    In der vorliegenden Datenschutzerklärung werden nur Informationen dargestellt, die spezifisch für die Website
+                    <a target="_blank" href="www.vademecum.org">www.vademecum.org</a> sind.
+                </p>
+                <br />
+                <h4 class="siteHeader">
+                                            3 Informationen zur Website <a target="_blank" href="www.vademecum.org">www.vademecum.org</a>
+                                    </h4>
+                <p>
+                    Die Website <a target="_blank" href="www.vademecum.org">www.vademecum.org</a> wird von der Gesellschaft Anthroposophischer Ärzte in Deutschland e.V. (GAÄD) betrieben.
+                    Die GAÄD ist der Rechtsträger dieser Website.
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.1 Besuch der Website <a target="_blank" href="www.vademecum.org">www.vademecum.org</a> nur informatorisch
+                                    </h5>
+                <p>
+                                            Die nur informatorische Nutzung der Website ist dann gegeben, wenn Sie sich auf dieser Website nicht anmelden
+                        und keine Berichte für das Vademecum erfassen.
+                        Bei der bloß informatorischen Nutzung der Website erheben wir nur solche Daten, die Ihr Internet-Browser an
+                        unseren Server übermittelt (sogenannte Server-Logfiles). Wenn Sie die Website aufrufen, erheben wir die
+                        folgenden Daten, die für uns technisch erforderlich sind, um Ihnen die Website anzuzeigen:
+                        <ul>
+                            <li>Datum und Uhrzeit zum Zeitpunkt des Zugriffs</li>
+                            <li>Menge der gesendeten Daten in Byte</li>
+                            <li>Quelle/Verweis, von welchem Sie auf die Seite gelangten</li>
+                            <li>Verwendeter Browser</li>
+                            <li>Verwendetes Betriebssystem</li>
+                            <li>Verwendete IP-Adresse</li>
+                        </ul>
+                        Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der
+                        Verbesserung der Stabilität und Funktionalität unserer Website. Eine Weitergabe oder anderweitige Verwendung
+                        der Daten findet nicht statt. Wir behalten uns allerdings vor, die Server-Logfiles nachträglich zu überprüfen,
+                        sollten konkrete Anhaltspunkte auf eine rechtswidrige Nutzung hinweisen.<br />
+                        Auf dieser Website werden benutzerbezogene Daten durch die Verwendung von Cookies verarbeitet. Die Verwendung
+                        von Cookies können Sie bei nur informatorischer Nutzung der Website einschränken oder vollständig
+                        deaktivieren; siehe unten.<br />
+                        Auf dieser Website werden durch den Web-Analysedienst Matomo benutzerbezogene Daten verarbeitet.
+                        Die Verarbeitung dieser Daten können Sie unterbinden; siehe unten.
+                                    </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.2 Anmeldung auf dieser Website und Erfassung von Vademecum-Berichten
+                                    </h5>
+                <p>
+                                            Sie können sich auf dieser Website mit Ihrer Benutzerkennung anmelden, um Berichte zu Indikationen und
+                        Arzneimitteln für das Vademecum Anthroposophische Arzneimittel zu erfassen. Über die Erhebung und
+                        Verarbeitung von Daten informieren wir in der Datenschutzerklärung der GAÄD auf <a target="_blank" href="www.gaed.de/datenschutz">www.gaed.de/datenschutz</a>,
+                        Abschnitt 5.17.
+                                    </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.3 Verwendung von Cookies
+                                    </h5>
+                <p>
+                    Um unsere Website zu optimieren und die Nutzung bestimmter Funktionen zu ermöglichen, verwenden wir auf verschiedenen
+                    Seiten sogenannte Cookies. Hierbei handelt es sich um kleine Textdateien, die auf dem Endgerät des Besuchers abgelegt
+                    werden. Einige der von uns verwendeten Cookies werden nach dem Ende der Browser-Sitzung, also nach Schließen Ihres
+                    Browsers, wieder gelöscht (sog. Sitzungs-Cookies). Andere Cookies verbleiben auf Ihrem Endgerät und ermöglichen uns,
+                    Ihren Browser beim nächsten Besuch wiederzuerkennen (persistente Cookies). Wenn Sie die Verwendung von Cookies nicht
+                    deaktivieren, werden auf der Website im individuellen Umfang bestimmte Nutzerinformationen wie Browser- und
+                    Standortdaten sowie IP-Adresswerte erhoben und gespeichert. Persistente Cookies werden automatisiert
+                    nach einer vorgegebenen Dauer gelöscht, die sich je nach Cookie unterscheiden kann.<br />
+                    Cookies dienen auch dazu, durch Speicherung von Einstellungen den Bestellprozess zu vereinfachen
+                    (z.B. Merken des Inhalts eines virtuellen Warenkorbs für einen späteren Besuch auf der Website).
+                    Sofern durch einzelne von uns implementierte Cookies auch personenbezogene Daten verarbeitet werden,
+                    erfolgt die Verarbeitung gemäß Art. 6 Abs. 1 lit. b DSGVO entweder zur Durchführung des Vertrages oder
+                    gemäß Art. 6 Abs. 1 lit. f DSGVO zur Wahrung unseres berechtigten Interesses an der bestmöglichen Funktionalität
+                    der Website sowie einer benutzerfreundlichen Ausgestaltung der Seitenbesuche.<br />
+                    Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und einzeln über
+                    deren Annahme entscheiden oder die Annahme von Cookies für bestimmte Fälle oder generell ausschließen können.
+                    Bei der Nutzung der Website im Rahmen Ihrer Abonnements durch Anmeldung mit Ihrer Benutzerkennung ist die
+                    Deaktivierung von Cookies nicht erlaubt. Wir behalten uns vor, Ihren Zugang zu sperren, falls Sie in
+                    Ihrem Browser die Nutzung von Cookies deaktiviert haben.<br />
+                    In allen anderen Fällen können Sie die Nutzung von Cookies einschränken oder vollständig unterbinden.
+                    Informationen zur Verwaltung von Cookies für die unterschiedlichen Browser finden Sie unter den folgenden Links:<br />
+                    <ul>
+                        <li>Microsoft Internet Explorer: <a href="http://windows.microsoft.com/de-DE/windows-vista/Block-or-allow-cookies">http://windows.microsoft.com/de-DE/windows-vista/Block-or-allow-cookies</a></li>
+                        <li>Microsoft Edge: <a href="https://privacy.microsoft.com/de-DE/windows-10-microsoft-edge-and-privacy">https://privacy.microsoft.com/de-DE/windows-10-microsoft-edge-and-privacy</a></li>
+                        <li>Firefox: <a href="https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen">https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen</a></li>
+                        <li>Chrome: <a href="http://support.google.com/chrome/bin/answer.py?hl=de&hlrm=en&answer=95647">http://support.google.com/chrome/bin/answer.py?hl=de&hlrm=en&answer=95647</a></li>
+                        <li> Safari: <a href="https://support.apple.com/kb/ph21411?locale=de_DE">https://support.apple.com/kb/ph21411?locale=de_DE</a></li>
+                        <li>Opera: <a href="http://help.opera.com/Windows/10.20/de/cookies.html">http://help.opera.com/Windows/10.20/de/cookies.html</a></li>
+                    </ul>
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.4 Web-Analysedienst Matomo und Cookies
+                                    </h5>
+                <p>
+                    Auf der Website werden unter Einsatz der Web-Analysedienst-Software Matomo (früher Piwik), einem Dienst des Anbieters
+                    InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland, auf Basis unseres berechtigten Interesses an der
+                    statistischen Analyse des Nutzerverhaltens zum Zweck der Website-Optimierung und der Fehleranalyse gemäß
+                    Art. 6 Abs. 1 lit. f DSGVO Daten gesammelt und gespeichert. Aus diesen Daten können zum selben Zweck
+                    pseudonymisierte Nutzungsprofile erstellt und ausgewertet werden. Hierzu können Cookies eingesetzt werden.
+                    Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher des Internet-Browsers des
+                    Seitenbesuchers gespeichert werden. Die Cookies ermöglichen unter anderem die Wiedererkennung des Internet-Browsers.
+                    Die mit der Matomo-Technologie erhobenen Daten (einschließlich Ihrer pseudonymisierten IP-Adresse) werden auf unserem
+                    Web-Server verarbeitet. Eine Weitergabe dieser oder anderer Daten an den Webanalysedienst Matomo in Neuseeland findet nicht statt.
+                    Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht einverstanden sind, dann können
+                    Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen. In diesem Fall wird in Ihrem
+                    Browser ein Opt-Out-Cookie abgelegt, was zur Folge hat, dass Matomo keinerlei Sitzungsdaten erhebt. Bitte beachten
+                    Sie, dass die vollständige Löschung Ihrer Cookies zur Folge hat, dass auch das Opt-Out-Cookie gelöscht wird und
+                    ggf. von Ihnen erneut aktiviert werden muss.
+                    <iframe
+                            style="border: 0; height: 200px; width: 100%;"
+                            src="https://www.quotus.org/piwik/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=c0c0c0&fontColor=&fontSize=&fontFamily="
+                    ></iframe>
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.5 Google Web-Fonts
+                                    </h5>
+                <p>
+                  Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web-Fonts, die von der Google LLC., 1600 Amphitheatre Parkway, Mountain View,
+                  CA 94043, USA („Google“) bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web-Fonts in ihren Browser-Cache, um Texte und Schriftarten korrekt anzuzeigen.<br /><br />
+
+                  Um den Schutz Ihrer Privatsphäre zu verbessern, wurden die Web-Fonts lokal auf dem Webserver installiert. Damit stellen wir sicher, daß beim Aufruf der Webseite Ihre IP-Adresse
+                  nicht an Google-Server übermittelt wird. Wir möchten diesen Umstand besonders hervorheben, da auf den meisten Webservern, die Google Web-Fonts verwenden, mit dem Aufruf einer
+                  Webseite im Hintergrund eine Verbindung Ihres Browsers zu Servern von Google aufgebaut und Ihre IP-Adresse übermittelt wird.
+
+                </p>
+                <br />
+                <h5 class="siteHeader">
+                                            3.6 Social Plugins und Maßnahmen zum Schutz Ihrer Privatsphäre
+                                    </h5>
+                <p>
+                    Wir versichern Ihnen hiermit, daß wir keine Analysen unter Verwendung personenbezogener Daten, die durch den Besuch
+                    dieser Website gespeichert werden, durchführen, so wie wir auch auf das Tracking beim Versand von E-Mail-Newslettern
+                    verzichten. Wir wissen daher nicht und unternehmen keine Versuche herauszufinden, ob, wann und wie oft Sie diese Website
+                    besucht und welche Seiten Sie angeklickt haben.<br />
+                    Wir arbeiten nicht mit Werbepartnern zusammen und verwenden keine Cookies von Drittanbietern.<br />
+                    Insbesondere verzichten wir auf unserer Website auf Social Plugins von Facebook, Twitter, Google+ und ähnlichen
+                    Diensten, um die heimliche Observierung Ihrer Website-Besuche durch Spionage-Dienste zu unterbinden.<br />
+                    Bitte beachten Sie: Wenn Sie sich zum Beispiel bei Facebook angemeldet haben und unsere Website besuchen,
+                    kann Facebook die besuchten Seiten registrieren. Das können wir nicht verhindern. Melden Sie sich deshalb vor
+                    dem Besuch unserer Website von Facebook, YouTube und ähnlichen Diensten ab, wenn Ihnen, wie wir hoffen, der
+                    Schutz Ihrer Privatsphäre wichtig ist.
+                </p>
+                <br />
+                <h4 class="siteHeader">
+                                            4 Ihre Rechte gemäß DSGVO, Ihr Widerspruchsrecht und dessen Ausübung
+                                    </h4>
+                <p>
+                    Detaillierte Informationen finden Sie in der Datenschutzerklärung der GAÄD auf <a target="_blank" href="www.gaed.de/datenschutz">www.gaed.de/datenschutz</a>,
+                    Abschnitt 10 bis 12.
+                </p>
+                <br />
+                <h4 class="siteHeader">
+                                            5 Änderungen dieser Datenschutzerklärung
+                                    </h4>
+                <p>
+                    Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um Änderungen unserer Leistungen und Angebote und
+                    Änderungen in der Datenverarbeitung der GAÄD abzubilden und die aktuelle Rechtsprechung zu berücksichtigen.
+                </p>
+                <br />
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End teaser Block -->
+
+    <!-- Info Block -->
+
+
+
+
+    <!-- end info Block -->
+
+
+
+
+    <div id="footer" class="container">
+        <div class="row">
+
+                <a class="back-top-btn" href="#">
+                                            Back
+                                    </a>
+
+
+                <ul class="meta-navigation">
+                    <li>
+                        <a href="https://www.vademecum.org/contact">
+                                                            Contact
+                                                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.vademecum.org/imprint">
+                                                            Imprint
+                                                    </a>
+                    </li>
+                    <li>
+                        <a href="https://www.vademecum.org/privacy">
+                                                            Privacy policy
+                                                    </a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/privacy?_locale=de">DE</a>
+                    </li>
+                    <li>
+                        <a class="active" href="https://www.vademecum.org/privacy?_locale=en">EN</a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/privacy?_locale=es">ES</a>
+                    </li>
+                    <li>
+                        <a class="" href="https://www.vademecum.org/privacy?_locale=fr">FR</a>
+                    </li>
+                </ul>
+
+        </div>
+
+    </div>
+</div>
+    <script src="/bundles/vademecum/js/jquery-3.2.0.min.js"></script>
+    <script src="/bundles/vademecum/js/bootstrap.min.js"></script></body>
+</html>
