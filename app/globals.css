@@ -316,6 +316,18 @@ summary small {
 .section-content { padding: 0 0 20px; }
 .section-content .document-section > summary { font-size: 15px; }
 
+.document-branch > .branch-content {
+    border-left: 1px solid var(--line);
+    padding-left: 18px;
+}
+
+.document-branch > h2,
+.document-branch > h3,
+.document-branch > h4 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
 @media (max-width: 760px) {
     .workspace {
         padding: 12px 20px 28px

@@ -86,6 +86,15 @@ export default function Home() {
         const props = {...(node.id && {id: `content-${node.id}`})};
         const children = node.children?.map((child, i) => render(child, `${key}-${i}`));
         if (node.type === 'anchor') return <span key={key} {...props}/>;
+        if (node.type === 'section' && node.children.some(child => child.type === 'section')) {
+            const Heading = `h${Math.min(node.heading.level ?? 2, 4)}`;
+            return <section className="document-branch" key={key}>
+                <Heading {...(node.heading.id && {id: `content-${node.heading.id}`})}>
+                    {node.heading.children?.map((child, i) => render(child, `${key}-heading-${i}`))}
+                </Heading>
+                <div className="branch-content">{children}</div>
+            </section>;
+        }
         if (node.type === 'section') return <details className="document-section" key={key}>
             <summary {...(node.heading.id && {id: `content-${node.heading.id}`})}>
                 {node.heading.children?.map((child, i) => render(child, `${key}-heading-${i}`))}

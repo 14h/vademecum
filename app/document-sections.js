@@ -19,10 +19,18 @@ export function documentSections(blocks) {
             stack.at(-1).section.children.push(node);
         }
     }
-    const firstSection = root.children.findIndex(node => node.type === 'section');
-    const introduction = firstSection < 0 ? root.children : root.children.slice(0, firstSection);
-    return [
-        ...introduction,
-        ...(firstSection < 0 ? [] : root.children.slice(firstSection)),
-    ];
+    function headingText(nodes) {
+        return nodes.map(node => node.text ?? headingText(node.children ?? [])).join('');
+    }
+    function removeIndicationsHeading(nodes) {
+        return nodes.flatMap(node => {
+            if (node.type !== 'section') return [node];
+            const children = removeIndicationsHeading(node.children);
+            if (headingText(node.heading.children ?? []).trim() === 'Indikationen') {
+                return [...(node.heading.id ? [{type: 'anchor', id: node.heading.id}] : []), ...children];
+            }
+            return [{...node, children}];
+        });
+    }
+    return removeIndicationsHeading(root.children);
 }
