@@ -299,6 +299,23 @@ summary small {
     color: var(--muted)
 }
 
+.document-section {
+    border-bottom: 1px solid var(--line);
+}
+
+.document-section > summary {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 17px 0;
+}
+
+.section-toggle::after { content: '+'; color: var(--muted); font-weight: 400; }
+.document-section[open] > summary .section-toggle::after { content: '−'; }
+.section-content { padding: 0 0 20px; }
+.section-content .document-section > summary { font-size: 15px; }
+
 @media (max-width: 760px) {
     .workspace {
         padding: 12px 20px 28px

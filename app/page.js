@@ -1,5 +1,17 @@
 "use client";
 import {useEffect, useMemo, useRef, useState} from 'react';
+import {documentSections} from './document-sections';
+
+function revealAnchor(id) {
+    const target = document.getElementById(`content-${id}`);
+    if (!target) return;
+    let parent = target.parentElement;
+    while (parent) {
+        if (parent.tagName === 'DETAILS') parent.open = true;
+        parent = parent.parentElement;
+    }
+    target.scrollIntoView({block: 'start'});
+}
 
 const modes = {
     medicines: {label: 'Arzneimittel', file: '/vademecum.json'},
@@ -60,7 +72,7 @@ export default function Home() {
         }
         const target = anchor && document.getElementById(`content-${anchor}`);
         if (target) {
-            target.scrollIntoView({block: 'start'});
+            revealAnchor(anchor);
         } else {
             document.querySelector('.reader')
                     ?.scrollTo(0, 0);
@@ -73,6 +85,14 @@ export default function Home() {
         }
         const props = {...(node.id && {id: `content-${node.id}`})};
         const children = node.children?.map((child, i) => render(child, `${key}-${i}`));
+        if (node.type === 'anchor') return <span key={key} {...props}/>;
+        if (node.type === 'section') return <details className="document-section" key={key}>
+            <summary {...(node.heading.id && {id: `content-${node.heading.id}`})}>
+                {node.heading.children?.map((child, i) => render(child, `${key}-heading-${i}`))}
+                <span className="section-toggle" aria-hidden="true"/>
+            </summary>
+            <div className="section-content">{children}</div>
+        </details>;
         if (node.type === 'image') {
             return <figure key={key} {...props}><img src={node.src} alt={node.alt}
                                                      loading="lazy"/></figure>;
@@ -85,8 +105,7 @@ export default function Home() {
             return <a key={key} {...props} href={node.href} onClick={internal ? e => {
                 e.preventDefault();
                 if (node.href.startsWith('#')) {
-                    document.getElementById(`content-${node.href.slice(1)}`)
-                            ?.scrollIntoView();
+                    revealAnchor(node.href.slice(1));
                 } else {
                     open(node.href, 'Dokument', true);
                 }
@@ -157,7 +176,7 @@ export default function Home() {
         {selection && <article className="reader" aria-live="polite">
             <div className="document-content">{error ? <p role="alert">{error}</p> : doc ? <><p
                     className="eyebrow">{selection.name}</p>
-                    <h1>{doc.title}</h1>{doc.blocks.map((node, i) => render(node, i))}</> :
+                    <h1>{doc.title}</h1><div key={requestVersion.current}>{documentSections(doc.blocks).map((node, i) => render(node, i))}</div></> :
                 <p>Dokument wird geladen…</p>}</div>
         </article>}</main>;
 }
